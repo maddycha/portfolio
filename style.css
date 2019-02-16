@@ -58,6 +58,7 @@ h1{
     left: 50%;
     transform: translate(-50%, 0);
     position: fixed;
+    margin-top: -1%;
 }
 
 a{
@@ -75,7 +76,6 @@ a{
     transform: translate(-50%, -50%);
     left: 50%;
     position: fixed;
-
     font-size: 0.8rem;
     line-height: 1.2rem;
     background: white;
@@ -92,7 +92,7 @@ a{
     text-align: center;
     transform: translate(-50%, 0);
     position: fixed;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 #hidelink{
