@@ -10,20 +10,26 @@ html{
 }
 
 main{
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 img{
     display: inline-block;
-    width: 30%;
+    width: 28%;
 }
 
+.why{
+    color: #ff0000;
+    display: block;
+    margin-top: -0.2rem;
+    margin-bottom: 0.2rem;
+}
 
-p{
+p, .ip{
     display: inline-block;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-    width: 30%;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    width: 28%;
     box-sizing: border-box;
     padding: 0% 5%;
     opacity: 0;
@@ -70,8 +76,8 @@ a{
     left: 50%;
     position: fixed;
 
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     background: white;
     padding: 1rem;
     box-shadow: 7px 7px #ddd;
@@ -111,7 +117,7 @@ a{
     transition-timing-function: ease-in-out;
     position: absolute;
     height: 100%;
-    width: 250%;
+    width: 230%;
     margin: 0;
     min-height: 100%;
     background: #fff;

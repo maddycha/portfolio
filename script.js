@@ -31,7 +31,7 @@ function showacd(){
 }
 
 function showAbout(){
-    document.getElementById("rect").style.opacity = 0.8;
+    document.getElementById("rect").style.opacity = 0.9;
     document.getElementById("rect").style.zIndex = 100;
     document.getElementById("about").style.zIndex = 101;
         document.getElementById("about").style.opacity = 1;
