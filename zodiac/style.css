@@ -440,11 +440,12 @@ img:hover, a:hover, .wireframe:hover{
     }
     #navmobile ul{
         background: #f9f0f0;
+        width: 100%;
     }
     #navmobile ul a li{
         text-align: center;
         box-sizing: border-box;
         float: left;
-        padding-left: 5.2%;
+        padding-left: 5.3%;
     }
 }
