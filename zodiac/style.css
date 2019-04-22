@@ -448,4 +448,8 @@ img:hover, a:hover, .wireframe:hover{
         float: left;
         padding-left: 5.3%;
     }
+    
+    #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
+        opacity: 1;
+    }
 }
