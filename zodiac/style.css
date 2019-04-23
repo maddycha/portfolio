@@ -432,6 +432,7 @@ padding-top: 2%;
     #rabbit1{
         display: none;
     }
+    
     h3{
         margin: 5%;
     }
@@ -464,6 +465,7 @@ padding-top: 2%;
         background: #f9f0f0;
         width: 100%;
     }
+
     nav ul {
         display: flex;
         flex-wrap: nowrap;
@@ -471,11 +473,25 @@ padding-top: 2%;
         padding-right: 2%;
         width: 100%;
     }
+    
+    #rabbit2{
+        display: block;
+    }
 
     nav ul a{
         width: 100%;
     }
 
+    /*
+    #navmobile ul a li{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+}
+
+    */
     #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
         opacity: 1;
     }
@@ -545,6 +561,7 @@ padding-top: 2%;
     #rabbit1{
         display: none;
     }
+    
     h3{
         margin: 5%;
     }
@@ -585,13 +602,25 @@ padding-top: 2%;
         padding-right: 2%;
         width: 100%;
     }
+    
+    #rabbit2{
+        display: block;
+    }
 
     nav ul a{
         width: 100%;
     }
 
+    /*
+    #navmobile ul a li{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+}
 
-
+    */
     #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
         opacity: 1;
     }
