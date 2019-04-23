@@ -366,9 +366,140 @@ padding-top: 2%;
     transition: all 1s ease;
 }
 
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+       #partone{
+        display: none;
+    }
+
+    #titlemobile{
+        opacity: 1;
+        text-align: center;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        border-bottom: solid 2px #ff0000;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background: #f9f0f0;
+        top: 0;
+        display: block;
+    }
+
+    #partonemobile{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 10%;
+        padding-top: 0%;
+        padding-top: 6.5rem;
+    }
+
+    #title{
+        left: -20%;
+    }
+
+    #cat{
+        display: none;
+    }
+
+    #introtext{
+        height: auto;
+    }
+
+    .animal, #rat, #ox, #cat, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig, #ratoxcat, #tigerrabbit, #tigerrabbitdragon, #snakehorse, #goatmonkeyrooster, #dogpig{
+        width: 100%;
+        float: clear;
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+
+    #rat, #ox, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig{
+        border-top: solid 2px #ff0000;
+    }
+
+    .wireframe{
+        border-top: none;
+        box-sizing: border-box;
+    }
+
+    #rat img, #ratwireframe, #ox img, #oxwireframe, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #ox1, #oxd, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #dragon img, #dragonwireframe, #snake img, #snakewireframe, #horse img, #horsewireframe, #goat img, #goat wireframe, #monkey img, #monkeywireframe, #rooster img, #roosterwireframe, #dog img, #dogwireframe, #pig img, #pigwireframe, #tiger1, #rabbit1{
+        width: 100%;
+    }
+
+    #rabbit1{
+        display: none;
+    }
+    
+    h3{
+        margin: 5%;
+    }
+    .description, #tigerd, #rabbitd{
+        margin-bottom: 1rem;
+        padding: 5%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #navmobile{
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 20;
+        font-family: 'brothers',sans-serif;
+        bottom: 0;
+        border-top: solid 2px #ff0000;
+        padding-top: 1.2rem;
+        background: #f9f0f0;
+        padding-bottom: 1.2rem;
+    }
+    #navmobile ul{
+        background: #f9f0f0;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+    
+    #rabbit2{
+        display: block;
+    }
+
+    nav ul a{
+        width: 100%;
+    }
+
+    /*
+    #navmobile ul a li{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+}
+
+    */
+    #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
+        opacity: 1;
+    }
+}
 
 
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 768px){
     #partone{
         display: none;
     }
