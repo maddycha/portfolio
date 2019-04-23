@@ -378,8 +378,9 @@ padding-top: 2%;
 
 
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px){
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
        #partone{
         display: none;
     }
@@ -512,6 +513,7 @@ and (max-device-width : 1024px){
     }
 }
 
+/*
 @media screen and (max-width: 1024px){
     .description{
         font-size: 1.6rem;
@@ -519,6 +521,7 @@ and (max-device-width : 1024px){
     }
 
 }
+*/
 
 @media screen and (max-width: 768px){
     #partone{
