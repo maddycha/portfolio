@@ -7,6 +7,14 @@
     transition: all 1s ease;
 }
 
+#catd{
+    text-decoration: line-through;
+}
+
+#rabbit2{
+    display: none;
+}
+
 ::selection {
     background: #ff0000;
     color: #fff;
@@ -85,7 +93,7 @@ transform: rotate(-90deg);
     right: 0%;
     text-align: right;
     top: 0%;
-        background: #f9f0f0;
+    background: #f9f0f0;
 }
 
 #nav ul li{
@@ -110,18 +118,18 @@ transform: rotate(-90deg);
 h3{
     width: 30%;
     margin: 0;
-        margin-top: 1rem;
+    margin-top: 1rem;
 }
 .wireframe {
     border: 2px solid #ff0000;
-   background:
-      linear-gradient(to top right,
-         transparent calc(50% - 1px), #ff0000 calc(50% - 1px),
-         #ff0000 calc(50% + 1px), transparent calc(50% + 1px)),
-      linear-gradient(to bottom right,
-         transparent calc(50% - 1px), #ff0000 calc(50% - 1px),
-         #ff0000 calc(50% + 1px), transparent calc(50% + 1px));
-line-height: 0;
+    background:
+        linear-gradient(to top right,
+            transparent calc(50% - 1px), #ff0000 calc(50% - 1px),
+            #ff0000 calc(50% + 1px), transparent calc(50% + 1px)),
+        linear-gradient(to bottom right,
+            transparent calc(50% - 1px), #ff0000 calc(50% - 1px),
+            #ff0000 calc(50% + 1px), transparent calc(50% + 1px));
+    line-height: 0;
     margin: 0;
 }
 
@@ -186,7 +194,7 @@ img:hover, a:hover, .wireframe:hover{
 
 #ox1, #cat1, #tiger1, #rabbit1{
     float: left;
-        width: 50%;
+    width: 50%;
 }
 
 #oxd, #catd, #tigerd, #rabbitd{
@@ -201,7 +209,7 @@ img:hover, a:hover, .wireframe:hover{
     box-sizing: border-box;
     display: block;
     overflow:hidden;
-        padding-top: 2%;
+    padding-top: 2%;
 }
 
 .animal img{
@@ -213,7 +221,7 @@ img:hover, a:hover, .wireframe:hover{
     width: 50%;
     float: left;
     border-right: solid 2px #ff0000;
-            padding-left: 8%;
+    padding-left: 8%;
     padding-right: 2%;
 }
 
@@ -233,7 +241,7 @@ img:hover, a:hover, .wireframe:hover{
     height: 50vh;
     border-right: solid 2px #ff0000;
     padding-top: 4%;
-                padding-left: 16%;
+    padding-left: 16%;
     padding-right: 4%;
 }
 
@@ -245,7 +253,7 @@ img:hover, a:hover, .wireframe:hover{
 #dragon{
     float: left;
     width: 50%;
-        padding-left: 2%;
+    padding-left: 2%;
     padding-right: 8%;
     padding-top: 2%;
 }
@@ -255,12 +263,14 @@ img:hover, a:hover, .wireframe:hover{
     width: 100%;
 }
 
+/*
 #snake, #horse{
-    height: 50vh;
-        padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 2%;
+height: 50vh;
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 2%;
 }
+*/
 
 #goat, #monkey, #rooster{
     width: 34%;
@@ -288,19 +298,19 @@ img:hover, a:hover, .wireframe:hover{
     border-right: solid 2px #ff0000;
 }
 
-#dog, #pig{
+#dog, #pig, #snake, #horse{
     height: 100vh;
     width: 50%;
     float: left;
 }
 
-#dog{
+#dog, #snake{
     padding-right: 2%;
     padding-left: 8%;
-        border-right: solid 2px #ff0000;
+    border-right: solid 2px #ff0000;
 }
 
-#pig{
+#pig, #horse{
     padding-right: 8%;
     padding-left: 2%;
 }
@@ -308,7 +318,7 @@ img:hover, a:hover, .wireframe:hover{
 .animalname{
     font-family: 'brothers', sans-serif;
     color: #ff0000;
-     margin-bottom: 1.4rem;   
+    margin-bottom: 1.4rem;   
 }
 
 .description{
@@ -351,25 +361,18 @@ img:hover, a:hover, .wireframe:hover{
 }
 
 #titlemobile{
-    opacity: 0;
+    text-align: center;
+    display: none;
     transition: all 1s ease;
 }
 
 
 
 @media screen and (max-width: 768px){
-
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px){ 
-   
-}
-
-@media only screen and (max-width: 486px){
-        #partone{
+    #partone{
         display: none;
     }
-    
+
     #titlemobile{
         opacity: 1;
         text-align: center;
@@ -380,6 +383,8 @@ img:hover, a:hover, .wireframe:hover{
         width: 100%;
         z-index: 10;
         background: #f9f0f0;
+        top: 0;
+        display: block;
     }
 
     #partonemobile{
@@ -390,7 +395,7 @@ img:hover, a:hover, .wireframe:hover{
         padding-top: 0%;
         padding-top: 6.5rem;
     }
-    
+
     #title{
         left: -20%;
     }
@@ -398,11 +403,11 @@ img:hover, a:hover, .wireframe:hover{
     #cat{
         display: none;
     }
-    
+
     #introtext{
         height: auto;
     }
-    
+
     .animal, #rat, #ox, #cat, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig, #ratoxcat, #tigerrabbit, #tigerrabbitdragon, #snakehorse, #goatmonkeyrooster, #dogpig{
         width: 100%;
         float: clear;
@@ -410,20 +415,20 @@ img:hover, a:hover, .wireframe:hover{
         border: none;
         padding: 0;
     }
-    
+
     #rat, #ox, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig{
-                border-top: solid 2px #ff0000;
+        border-top: solid 2px #ff0000;
     }
-    
+
     .wireframe{
         border-top: none;
         box-sizing: border-box;
     }
-    
+
     #rat img, #ratwireframe, #ox img, #oxwireframe, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #ox1, #oxd, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #dragon img, #dragonwireframe, #snake img, #snakewireframe, #horse img, #horsewireframe, #goat img, #goat wireframe, #monkey img, #monkeywireframe, #rooster img, #roosterwireframe, #dog img, #dogwireframe, #pig img, #pigwireframe, #tiger1, #rabbit1{
         width: 100%;
     }
-    
+
     #rabbit1{
         display: none;
     }
@@ -438,11 +443,11 @@ img:hover, a:hover, .wireframe:hover{
         width: 100%;
         box-sizing: border-box;
     }
-    
+
     #nav{
         display: none;
     }
-    
+
     #navmobile{
         width: 100%;
         display: block;
@@ -452,20 +457,270 @@ img:hover, a:hover, .wireframe:hover{
         bottom: 0;
         border-top: solid 2px #ff0000;
         padding-top: 1.2rem;
-                background: #f9f0f0;
+        background: #f9f0f0;
         padding-bottom: 1.2rem;
     }
     #navmobile ul{
         background: #f9f0f0;
         width: 100%;
     }
-    #navmobile ul a li{
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    nav ul a{
+        width: 100%;
+    }
+
+    #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px){ 
+    #partone{
+        display: none;
+    }
+
+    #titlemobile{
+        opacity: 1;
         text-align: center;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        border-bottom: solid 2px #ff0000;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background: #f9f0f0;
+        top: 0;
+        display: block;
+    }
+
+    #partonemobile{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 10%;
+        padding-top: 0%;
+        padding-top: 6.5rem;
+    }
+
+    #title{
+        left: -20%;
+    }
+
+    #cat{
+        display: none;
+    }
+
+    #introtext{
+        height: auto;
+    }
+
+    .animal, #rat, #ox, #cat, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig, #ratoxcat, #tigerrabbit, #tigerrabbitdragon, #snakehorse, #goatmonkeyrooster, #dogpig{
+        width: 100%;
+        float: clear;
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+
+    #rat, #ox, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig{
+        border-top: solid 2px #ff0000;
+    }
+
+    .wireframe{
+        border-top: none;
         box-sizing: border-box;
-        float: left;
-        padding-left: 5.3%;
+    }
+
+    #rat img, #ratwireframe, #ox img, #oxwireframe, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #ox1, #oxd, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #dragon img, #dragonwireframe, #snake img, #snakewireframe, #horse img, #horsewireframe, #goat img, #goat wireframe, #monkey img, #monkeywireframe, #rooster img, #roosterwireframe, #dog img, #dogwireframe, #pig img, #pigwireframe, #tiger1, #rabbit1{
+        width: 100%;
+    }
+
+    #rabbit1{
+        display: none;
+    }
+    h3{
+        margin: 5%;
+    }
+    .description, #tigerd, #rabbitd{
+        margin-bottom: 1rem;
+        padding: 5%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #navmobile{
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 20;
+        font-family: 'brothers',sans-serif;
+        bottom: 0;
+        border-top: solid 2px #ff0000;
+        padding-top: 1.2rem;
+        background: #f9f0f0;
+        padding-bottom: 1.2rem;
+    }
+    #navmobile ul{
+        background: #f9f0f0;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    nav ul a{
+        width: 100%;
+    }
+
+
+
+    #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 486px){
+    #partone{
+        display: none;
+    }
+
+    #titlemobile{
+        opacity: 1;
+        text-align: center;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        border-bottom: solid 2px #ff0000;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background: #f9f0f0;
+        top: 0;
+        display: block;
+    }
+
+    #partonemobile{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 10%;
+        padding-top: 0%;
+        padding-top: 6.5rem;
+    }
+
+    #title{
+        left: -20%;
+    }
+
+    #cat{
+        display: none;
+    }
+
+    #introtext{
+        height: auto;
+    }
+
+    .animal, #rat, #ox, #cat, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig, #ratoxcat, #tigerrabbit, #tigerrabbitdragon, #snakehorse, #goatmonkeyrooster, #dogpig{
+        width: 100%;
+        float: clear;
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+
+    #rat, #ox, #tiger, #rabbit, #dragon, #snake, #horse, #goat, #monkey, #rooster, #dog, #pig{
+        border-top: solid 2px #ff0000;
+    }
+
+    .wireframe{
+        border-top: none;
+        box-sizing: border-box;
+    }
+
+    #rat img, #ratwireframe, #ox img, #oxwireframe, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #ox1, #oxd, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #dragon img, #dragonwireframe, #snake img, #snakewireframe, #horse img, #horsewireframe, #goat img, #goat wireframe, #monkey img, #monkeywireframe, #rooster img, #roosterwireframe, #dog img, #dogwireframe, #pig img, #pigwireframe, #tiger1, #rabbit1{
+        width: 100%;
+    }
+
+    #rabbit1{
+        display: none;
     }
     
+    h3{
+        margin: 5%;
+    }
+    .description, #tigerd, #rabbitd{
+        margin-bottom: 1rem;
+        padding: 5%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #navmobile{
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 20;
+        font-family: 'brothers',sans-serif;
+        bottom: 0;
+        border-top: solid 2px #ff0000;
+        padding-top: 1.2rem;
+        background: #f9f0f0;
+        padding-bottom: 1.2rem;
+    }
+    #navmobile ul{
+        background: #f9f0f0;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+    
+    #rabbit2{
+        display: block;
+    }
+
+    nav ul a{
+        width: 100%;
+    }
+
+    /*
+    #navmobile ul a li{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+}
+
+    */
     #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
         opacity: 1;
     }
