@@ -513,7 +513,6 @@ padding-top: 2%;
     }
 }
 
-/*
 @media screen and (max-width: 1024px){
     .description{
         font-size: 1.6rem;
@@ -521,7 +520,6 @@ padding-top: 2%;
     }
 
 }
-*/
 
 @media screen and (max-width: 768px){
     #partone{
