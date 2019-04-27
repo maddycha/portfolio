@@ -195,7 +195,9 @@ img:hover, a:hover, .wireframe:hover{
 }
 
 
-
+.abstracted{
+    display: none;
+}
 
 #ox img, #cat img, #tiger img, #rabbit img, #goat img, #rooster img, #monkey img, #dog img, #pig img{
     width: 100%;
@@ -918,7 +920,27 @@ padding-top: 2%;
 }
 
     */
-    #rat img, #ox img, #tiger img, #rabbit img, #dragon img, #snake img, #horse img, #goat img, #monkey img, #rooster img, #dog img, #pig img{
-        opacity: 1;
+    #ratimg, #oximg, #tigerimg, #rabbitimg, #dragonimg, #snakeimg, #horseimg, #goatimg, #monkeyimg, #roosterimg, #dogimg, #pigimg{
+        display: none;
+    }
+    
+    .abstracted, #tigerm{
+        display: block;
+    }
+    
+    .animalname{
+        font-size: 6rem;
+        position: absolute;
+        margin-top: -10%;
+        color: #ff0000;
+        text-align: justify;
+        width: 80%;
+/*
+        	text-shadow:
+		-2px -2px 0 #fff,
+		2px -2px 0 #fff,
+		-2px 2px 0 #fff,
+		2px 2px 0 #fff;
+*/
     }
 }
