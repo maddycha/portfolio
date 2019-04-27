@@ -953,13 +953,14 @@ padding-top: 2%;
     }
     
     .animalname{
-        font-size: 6rem;
+        font-size: 5.5rem;
         position: absolute;
         margin-top: -10%;
         color: #ff0000;
         margin-left: -10px;
         text-align: justify;
-        width: 120%;
+        width: 100%;
+        padding: 0;
         overflow-y: hidden;
 /*
         	text-shadow:
