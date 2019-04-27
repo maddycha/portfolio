@@ -1,5 +1,6 @@
 *{
     cursor: url(cursors/cursor-01.png), auto;
+    overflow-x: hidden;
 }
 
 #navmobile{
@@ -939,7 +940,8 @@ padding-top: 2%;
         color: #ff0000;
         margin-left: -10px;
         text-align: justify;
-        width: 80%;
+        width: 120%;
+        overflow-y: hidden;
 /*
         	text-shadow:
 		-2px -2px 0 #fff,
