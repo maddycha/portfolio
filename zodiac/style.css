@@ -1,6 +1,6 @@
 *{
     cursor: url(cursors/cursor-01.png), auto;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
    #all{
@@ -159,6 +159,10 @@ img:hover, a:hover, .wireframe:hover{
     width: 100%;
 }
 
+.wireframe, img{
+    overflow-y: hidden;
+}
+
 #ratwireframe:hover #ratimg{
     opacity: 1;
 }
@@ -228,7 +232,6 @@ img:hover, a:hover, .wireframe:hover{
     border-top: solid 2px #ff0000;
     box-sizing: border-box;
     display: block;
-    overflow:hidden;
     padding-top: 2%;
 }
 
@@ -527,9 +530,7 @@ padding-top: 2%;
 */
 
 @media screen and (max-width: 1044px){
-    *{
-        overflow-x: hidden;
-    }
+
     .description{
         font-size: 1.6rem;
         line-height: 2rem;
