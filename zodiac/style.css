@@ -3,6 +3,10 @@
     overflow-x: hidden;
 }
 
+   #all{
+        overflow-x:hidden;
+    }
+
 #navmobile{
     display: none;
     transition: all 1s ease;
@@ -813,6 +817,9 @@ padding-top: 2%;
         overflow-x: hidden;
     }
     
+    #all{
+        overflow-x:hidden;
+    }
     
     #partone{
         display: none;
