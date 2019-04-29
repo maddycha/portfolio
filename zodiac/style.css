@@ -155,7 +155,7 @@ img:hover, a:hover, .wireframe:hover{
     cursor: url(cursors/cursor-02.png), auto;
 }
 
-#rat img, #dragon img, #snake img, #horse img{
+#ratimg, #dragonimg, #snakeimg, #horseimg{
     width: 100%;
 }
 
@@ -163,6 +163,7 @@ img:hover, a:hover, .wireframe:hover{
     overflow-y: hidden;
 }
 
+/*
 #ratwireframe:hover #ratimg{
     opacity: 1;
 }
@@ -202,13 +203,125 @@ img:hover, a:hover, .wireframe:hover{
 #pigwireframe:hover #pigimg{
     opacity: 1;
 }
+*/
+
+.wireframe{
+    position: relative;
+}
+
+.emoji{
+    position: absolute;
+    display: block;
+    width: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+      top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    z-index: -10;
+}
+
+
+#rat:hover #ratimg{
+    opacity: 1;
+}
+#rat:hover #rate{
+    opacity: 0;
+}
+
+#ox:hover #oximg{
+    opacity: 1;
+}
+#ox:hover #oxe{
+    opacity: 0;
+}
+
+#cat:hover #catimg{
+    opacity: 1;
+}
+#cat:hover #cate{
+    opacity: 0;
+}
+
+#tiger:hover #tigerimg{
+    opacity: 1;
+}
+#tiger:hover #tigere{
+    opacity: 0;
+}
+
+#rabbit:hover #rabbitimg{
+    opacity: 1;
+}
+#rabbit:hover #rabbite{
+    opacity: 0;
+}
+
+#dragon:hover #dragonimg{
+    opacity: 1;
+}
+#dragon:hover #dragone{
+    opacity: 0;
+}
+
+#snake:hover #snakeimg{
+    opacity: 1;
+}
+#snake:hover #snakee{
+    opacity: 0;
+}
+
+#horse:hover #horseimg{
+    opacity: 1;
+}
+#horse:hover #horsee{
+    opacity: 0;
+}
+
+#goat:hover #goatimg{
+    opacity: 1;
+}
+#goat:hover #goate{
+    opacity: 0;
+}
+
+#monkey:hover #monkeyimg{
+    opacity: 1;
+}
+#monkey:hover #monkeye{
+    opacity: 0;
+}
+
+#rooster:hover #roosterimg{
+    opacity: 1;
+}
+#rooster:hover #roostere{
+    opacity: 0;
+}
+
+#dog:hover #dogimg{
+    opacity: 1;
+}
+#dog:hover #doge{
+    opacity: 0;
+}
+
+#pig:hover #pigimg{
+    opacity: 1;
+}
+#pig:hover #pige{
+    opacity: 0;
+}
+
+
 
 
 .abstracted{
     display: none;
 }
 
-#ox img, #cat img, #tiger img, #rabbit img, #goat img, #rooster img, #monkey img, #dog img, #pig img{
+#oximg, #catimg, #tigerimg, #rabbitimg, #goatimg, #roosterimg, #monkeyimg, #dogimg, #pigimg{
     width: 100%;
 }
 
@@ -233,10 +346,6 @@ img:hover, a:hover, .wireframe:hover{
     box-sizing: border-box;
     display: block;
     padding-top: 2%;
-}
-
-.animal img{
-    width: 20%;
 }
 
 
@@ -603,7 +712,7 @@ padding-top: 2%;
         box-sizing: border-box;
     }
 
-    #rat img, #ratwireframe, #ox img, #oxwireframe, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #ox1, #oxd, #tiger img, #tigerwireframe, #rabbit img, #rabbitwireframe, #dragon img, #dragonwireframe, #snake img, #snakewireframe, #horse img, #horsewireframe, #goat img, #goat wireframe, #monkey img, #monkeywireframe, #rooster img, #roosterwireframe, #dog img, #dogwireframe, #pig img, #pigwireframe, #tiger1, #rabbit1{
+    #ratimg, #ratwireframe, #oximg, #oxwireframe, #tigerimg, #tigerwireframe, #rabbitimg, #rabbitwireframe, #ox1, #oxd, #tigerimg, #tigerwireframe, #rabbitimg, #rabbitwireframe, #dragonimg, #dragonwireframe, #snakeimg, #snakewireframe, #horseimg, #horsewireframe, #goatimg, #goatwireframe, #monkeyimg, #monkeywireframe, #roosterimg, #roosterwireframe, #dogimg, #dogwireframe, #pigimg, #pigwireframe, #tiger1, #rabbit1{
         width: 100%;
     }
 
