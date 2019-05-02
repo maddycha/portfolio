@@ -12,6 +12,10 @@
     transition: all 1s ease;
 }
 
+#nav{
+    z-index: 2200;
+}
+
 #catd{
     text-decoration: line-through;
 }
