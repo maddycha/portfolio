@@ -407,6 +407,22 @@ right: 10%;
     box-sizing: border-box;
     padding: 1%;
 }
+.gallery6{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.gallery6 img{
+/*
+    width: 16%;
+    box-sizing: border-box;
+    padding: 1%;
+*/
+    
+        display: flex;
+    justify-content: space-between;
+    width: 16%;
+}
 
 #snsafd{
     box-sizing: border-box;
