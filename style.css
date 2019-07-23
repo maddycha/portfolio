@@ -734,4 +734,7 @@ header{
     .hidemobile{
         display: none;
     }
+    #aboutblurb{
+        width: 100%;
+    }
 }
