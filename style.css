@@ -697,4 +697,8 @@ img {vertical-align: middle;}
         padding: 0;
         margin-bottom: 1.4rem;
     }
+    
+    #popup{
+        display: none;
+    }
 }
