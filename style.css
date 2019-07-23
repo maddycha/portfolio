@@ -701,4 +701,37 @@ img {vertical-align: middle;}
     #popup{
         display: none;
     }
+    
+    h1{
+        text-align: center;
+        display: block;
+        margin: auto;
+        font-size: 1.4rem;
+    }
+header{
+    display: block;
+}
+    nav{
+        text-align: center;
+            display: block;
+        margin: auto;
+        padding: 0;    
+        margin-left: 0;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    nav a:nth-of-type(1){
+        margin-left: 0;
+    }
+    
+    header nav a{
+        margin-left: 38%;
+    }
+    #thumbs figure{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hidemobile{
+        display: none;
+    }
 }
