@@ -768,4 +768,14 @@ header{
     #aboutblurb{
         width: 100%;
     }
+    
+    .playwrapper{
+    float: left;
+    width: 100%;
+}
+    
+    .playprojecttext{
+    width: 100%;
+    float: left;
+}
 }
