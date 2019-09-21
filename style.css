@@ -315,10 +315,9 @@ transform: translateY(-50%);
 }
 
 #aboutimg{
-    width: 150px;
+    width: 300px;
     margin-top: 6%;
-    margin-left: 25%;
-    float: left;
+    float: right;
 }
 
 /*
