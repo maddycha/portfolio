@@ -520,7 +520,7 @@ transition-timing-function: ease-in-out;
 
 footer, footer p{
     font-size: 0.8rem;
-    line-height: 1.rem;
+    line-height: 1rem;
 }
 
 footer p{
@@ -718,16 +718,6 @@ img {vertical-align: middle;}
     from {opacity: .4} 
     to {opacity: 1}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
