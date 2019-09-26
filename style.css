@@ -366,7 +366,8 @@ right: 10%;
 
 
 .playprojecttext{
-    width: 40%;
+    width: 30%;
+    margin-right: 5%;
     float: left;
 }
 
@@ -384,7 +385,7 @@ right: 10%;
 
 .playwrapper{
     float: left;
-    width: 60%;
+    width: 65%;
 }
 
 .italicsmall{
