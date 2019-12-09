@@ -11,6 +11,15 @@ html {
     margin: 3rem 5% 2.5rem 5%; 
 }
 
+::-moz-selection {
+    background: red; 
+    color: white;
+}
+
+::selection { 
+    background: red; 
+    color: white;
+}
 
 ::-webkit-scrollbar {
     width: 0px; /* remove scrollbar space /
@@ -21,6 +30,7 @@ html {
     background: #ff0000; /* WebKit/Blink Browsers */
     color: #fff;
 }
+
 ::-moz-selection {
     background: #ff0000; /* Gecko Browsers */
     color: #fff;
@@ -194,7 +204,7 @@ figure:hover { transform: scale(1.02); }
 
 /*
 .small{
-    font-size: 0.8rem;
+font-size: 0.8rem;
 }
 */
 
@@ -232,7 +242,7 @@ h3{
     padding-right: 10%;
     box-sizing: border-box;
     list-style-position: outside;
-        clear: both;
+    clear: both;
 }
 
 
@@ -244,7 +254,7 @@ ul> li {
 }
 
 ul> li:before {
-        margin-left: -1rem;
+    margin-left: -1rem;
     content: "—";
 }
 
@@ -778,35 +788,35 @@ img {vertical-align: middle;}
         display: none;
     }
 
-/*
+    /*
     h1{
-        text-align: center;
-        display: block;
-        margin: auto;
-        font-size: 1.4rem;
-    }
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 1.4rem;
+}
     header{
-        display: block;
-    }
+    display: block;
+}
     nav{
-        text-align: center;
-        display: block;
-        margin: auto;
-        padding: 0;    
-        margin-left: 0;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
-    }
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 0;    
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
     nav a:nth-of-type(1){
-        margin-left: 0;
-    }
-*/
-/*
+    margin-left: 0;
+}
+    */
+    /*
 
     header nav a{
-        margin-left: 38%;
-    }
-*/
+    margin-left: 38%;
+}
+    */
     #thumbs figure{
         padding-left: 0;
         padding-right: 0;
