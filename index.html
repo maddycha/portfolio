@@ -2,114 +2,132 @@
 <html>
     <head>
         <title>maddy cha</title>
+        <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css">
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="shortcut icon" type="image/png" href="imgs/home-play-about/favicon.png"/>        <meta http-equiv="Cache-control" content="public">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="imgs/home-play-about/favicon.png"/>        
+        <meta http-equiv="Cache-control" content="public">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-        <script src="script.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/script.js" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144670648-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-144670648-1');
         </script>
     </head>
 
-    <!--
-<div id="popup"><div class="popupinfo"><h1>maddy cha</h1><p class="popuptext">this site is currently under construction, but feel free to look around!</p>
-<div class="popupenter"><a class="popuplink" onclick="enter()">you've been warned &rarr;</a></div>
-<div class="popupredirects">
-<a href="mailto:mecha@andrew.cmu.edu">email</a> — <a href="https://www.linkedin.com/in/maddycha/" target="_blank">linkedin</a> — <a href="maddycha_resume_2019_v6.pdf" target="_blank">resume</a></div>
-</div>
-<img id="sorry" src="imgs/sorry.png">
-</div>
--->
-
     <body> 
-        <header>
-            <a href="index"><h1>maddy cha</h1></a>
-            <nav>
-                <a href="index">work</a><a id="g1" class="otherpage" href="play">play</a><a id="g2" class="otherpage" href="about">about</a>
-            </nav>
-        </header>
+
 
 
         <main>
-            <div id="intro">
-                <p>Hi, I'm Maddy! I’m currently a fourth-year student majoring in <a href="https://design.cmu.edu/" target="_blank">Communication Design</a> and <a href="https://hcii.cmu.edu/" target="_blank">Human Computer Interaction</a> at Carnegie Mellon. 
-                    <span class="hidemobile">                    <br><br>I’m interested in creating memorable experiences through different methods of communication. </span>
-                </p>
+            <div id="home-leftcol-mobile">
+                <div class="intro-text-mobile">
+                    <p>hi i'm maddy :—)
+                        <br>
+                        welcom 2 my portfolio
+                    </p>
+                </div>
 
+                <img src="imgs/home-play-about/new.png" class="homeimg" id="meimg-mobile">
+            </div>
+            <div class="clear"></div>
+
+            <div id="home-leftcol">
+                <a href="http://maddycha.com/"><img src="imgs/home-play-about/new.png" class="homeimg" id="meimg"></a>
+                <div id="home-intro">
+                    <div id="intronew">
+                        <p>hi i'm maddy :—)
+                            <br>
+                            welcom 2 my portfolio~*~*~
+                        </p>
+                    </div>
+                    <div id="exp">
+                        <p><span class="bold">studies @</span>
+                            <br>
+                            carnegie mellon
+                            <br>
+                            design + hci
+                            <br><br></p>
+                        <p><span class="bold">worked @</span>
+                            <br>
+                            twitter — <span class="light">summer 2019</span>
+                            <br>
+                            livity — <span class="light">summer 2018</span>
+                            <br>
+                            nvidia — <span class="light">summer 2018</span>
+                        </p> 
+
+                        <div class="copyright"><p>&copy; maddy cha 2020</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="home-header">
+                <a href="http://maddycha.com/"><p class="current-page"  id="workLink">work</p></a><a href="play"><p id="playLink">play</p></a><a href="about"><p id="aboutLink"  style="border-right: none">about</p></a>
             </div>
 
 
 
-            <div id="thumbs">
-                <figure id="abbi-thumb">
-                    <a href="abbi"><img src="imgs/thumbs/abbi-thumb.gif">
-                        <figcaption><span class="bold">ABBI</span>
-                            <br>
-                            <span class="small">Conversational User Interface for Airbnb</span></figcaption></a>
-                </figure>
-
-                <figure id="twitter-thumb">
-                    <a href="twitter"><img src="imgs/thumbs/twitter-thumb.png">
-                        <figcaption><span class="bold">Periscope Profile Redesign</span>
-                            <br>
-                            <span class="small">Twitter Internship Summer 2019
-                            </span></figcaption></a>
-                </figure>
+            <div id="home-rightcol">
+                <div id="home-rightcol-content">
+                    <div id="work-tab">
 
 
-                <div class="clear"></div>
 
-                <figure id="fish-thumb">
-                    <a href="un-overfishing"><img src="imgs/thumbs/fish-thumb.gif">
-                        <figcaption><span class="bold">UN SDG Overfishing</span>
-                            <br>
-                            <span class="small">Increasing Awareness</span></figcaption></a>
-                </figure>
+                        <a href="abbi"><div class="thumb-full">
+                            <img class="thumb-img" src="imgs/thumbs/abbi-thumb.gif">
+                            <div class="thumb-text">
+                                <p class="bold">abbi</p><p>conversational user interface for airbnb</p></div>
+                            </div>
+                        </a>
+                        <a href="twitter">
+                            <div class="thumb-full">
+                                <img class="thumb-img" src="imgs/thumbs/twitter-thumb.png">
+                                <div class="thumb-text">
+                                    <p class="bold">periscope profile redesign</p><p>twitter internship 2019</p></div>
+                            </div>
+                        </a>
+                        <a href="un-overfishing">
+                            <div class="thumb-full">
+                                <img class="thumb-img" src="imgs/thumbs/fish-thumb.gif">
+                                <div class="thumb-text">
+                                    <p class="bold">un sdg overfishing</p><p>increasing awareness</p></div>
+                            </div>
+                        </a>
+                        <a href="aiga-monsters">
+                            <div class="thumb-full">
+                                <img class="thumb-img" src="imgs/thumbs/monsters-thumb.gif">
+                                <div class="thumb-text">
+                                    <p class="bold">aiga monsters</p><p>visualizing design census data</p></div>
+                            </div>
+                        </a>
 
-                <figure id="monsters-thumb">
-                    <a href="aiga-monsters"><img src="imgs/thumbs/monsters-thumb.gif">
-                        <figcaption><span class="bold">AIGA Monsters</span>
-                            <br>
-                            <span class="small">Visualizing Design Census Data</span></figcaption></a>
-                </figure>
-                
-                 <figure id="plants-thumb">
-                    <a href="plant-pals"><img src="imgs/thumbs/plants-thumb.png">
-                        <figcaption><span class="bold">Plant Pals</span>
-                            <br>
-                            <span class="small">Promoting Healthy Work-Life Balance</span></figcaption></a>
-                </figure>
-                
-                <figure id="sns-thumb">
-                    <a href="safe-and-sound"><img src="imgs/thumbs/sns-thumb.png">
-                        <figcaption><span class="bold">Safe &amp; Sound</span>
-                            <br>
-                            <span class="small">Increasing Safety on Campus</span></figcaption></a>
-                </figure>
+
+
+                    </div>
+                </div>
 
             </div>
         </main>
 
+
         <div class="clear"></div>
+
+
+
         <footer>
-            <div class="separator"></div>
-            <h6>&copy; Maddy Cha 2019</h6>
 
-            <p></p>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+        </footer>
 
     </body>
 </html>
