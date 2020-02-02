@@ -116,59 +116,102 @@ function showSlides3(n) {
     slides3[slideIndex3-1].style.display = "block";  
     dots3[slideIndex3-1].className += " active";
 }
-//
-//function work(){
-//    workTab = true;
-//    playTab = false;
-//    aboutTab = false;
-//}
-//
-//function play(){
-//    workTab = false;
-//    playTab = true;
-//    aboutTab = false;
-//}
-//
-//function about(){
-//    workTab = false;
-//    playTab = false;
-//    aboutTab = true;
-//}
-//
-//
-//function updateContent(){
-//    if(workTab == true){
-//        document.getElementById("workLink").style.background = "#000";
-//        document.getElementById("workLink").style.color = "#eee";
-//        document.getElementById("playLink").style.background = "#eee";
-//        document.getElementById("playLink").style.color = "#000";
-//        document.getElementById("aboutLink").style.background = "#eee";
-//        document.getElementById("aboutLink").style.color = "#000";
-//
-//        document.getElementById("work-tab").style.display="block";
-//        document.getElementById("play-tab").style.display="none";
-//        document.getElementById("about-tab").style.display="none";
-//    } else if(playTab == true){
-//        document.getElementById("workLink").style.background = "#eee";
-//        document.getElementById("workLink").style.color = "#000";
-//        document.getElementById("playLink").style.background = "#000";
-//        document.getElementById("playLink").style.color = "#eee";
-//        document.getElementById("aboutLink").style.background = "#eee";
-//        document.getElementById("aboutLink").style.color = "#000";
-//
-//        document.getElementById("work-tab").style.display="none";
-//        document.getElementById("play-tab").style.display="block";
-//        document.getElementById("about-tab").style.display="none";
-//    } else if(aboutTab == true){
-//        document.getElementById("workLink").style.background = "#eee";
-//        document.getElementById("workLink").style.color = "#000";
-//        document.getElementById("playLink").style.background = "#eee";
-//        document.getElementById("playLink").style.color = "#000";
-//        document.getElementById("aboutLink").style.background = "#000";
-//        document.getElementById("aboutLink").style.color = "#eee";
-//
-//        document.getElementById("work-tab").style.display="none";
-//        document.getElementById("play-tab").style.display="none";
-//        document.getElementById("about-tab").style.display="block";
-//    }
-//}
+
+
+function loadSidebar(){
+
+    document.body.style.visibility='visible';
+
+
+    var introP = document.createElement("p");
+    var introText = document.createTextNode("hi i'm maddy :—)");
+    var introText2 = document.createTextNode("welcome 2 my portfolio*~*~");
+    introP.appendChild(introText);
+    introP.appendChild(document.createElement("br"));
+    introP.appendChild(introText2);
+
+
+    var sidebar = document.getElementById("intronew");
+    sidebar.appendChild(introP);
+    
+//expP holds all text in sidebar
+    var expP = document.createElement("p");
+    //bold studies @ line
+    var expSpan = document.createElement("span");
+    expSpan.setAttribute("class", "bold");
+    var expSpanText = document.createTextNode("studies @");
+    expSpan.appendChild(expSpanText);
+    expP.appendChild(expSpan);
+    expP.appendChild(document.createElement("br"));
+    //studies @ content
+    var expEduText1 = document.createTextNode("carnegie mellon");
+    expP.appendChild(expEduText1);
+    expP.appendChild(document.createElement("br"));
+        var expEduText2 = document.createTextNode("design + hci");
+    expP.appendChild(expEduText2);
+        expP.appendChild(document.createElement("br"));
+        expP.appendChild(document.createElement("br"));
+    
+    //bold worked @ line
+     var expSpan2 = document.createElement("span");
+    expSpan2.setAttribute("class", "bold");
+    var expSpanText2 = document.createTextNode("worked @");
+    expSpan2.appendChild(expSpanText2);
+    expP.appendChild(expSpan2);
+        expP.appendChild(document.createElement("br"));
+    
+    //worked @ line 1
+    var expWorkText = document.createTextNode("twitter — ");
+    var expWorkSpan = document.createElement("span");
+    expWorkSpan.setAttribute("class", "light");
+    var expWorkSpanText = document.createTextNode("summer 2019");
+    expWorkSpan.appendChild(expWorkSpanText);
+    expP.appendChild(expWorkText);
+    expP.appendChild(expWorkSpan);
+            expP.appendChild(document.createElement("br"));
+    
+    //worked @ line 2
+    var expWorkText2 = document.createTextNode("livity — ");
+    var expWorkSpan2 = document.createElement("span");
+    expWorkSpan2.setAttribute("class", "light");
+    var expWorkSpanText2 = document.createTextNode("summer 2018");
+    expWorkSpan2.appendChild(expWorkSpanText2);
+    expP.appendChild(expWorkText2);
+    expP.appendChild(expWorkSpan2); 
+            expP.appendChild(document.createElement("br"));
+
+        
+    //worked @ line 3
+    var expWorkText2 = document.createTextNode("nvidia — ");
+    var expWorkSpan2 = document.createElement("span");
+    expWorkSpan2.setAttribute("class", "light");
+    var expWorkSpanText2 = document.createTextNode("summer 2018");
+    expWorkSpan2.appendChild(expWorkSpanText2);
+    expP.appendChild(expWorkText2);
+    expP.appendChild(expWorkSpan2); 
+    expP.appendChild(document.createElement("br"));
+
+    //copyright line
+    var copyright = document.createElement("div");
+    copyright.setAttribute("class", "copyright");
+    var copyrightP = document.createElement("p");
+    var copyrightPText = document.createTextNode("© maddy cha 2020");
+    copyrightP.appendChild(copyrightPText);
+    copyright.appendChild(copyrightP);
+    expP.appendChild(copyright);
+    
+    
+    var sidebarExp = document.getElementById("exp");
+    sidebarExp.appendChild(expP);
+
+    //mobile text
+    var sidebarMobile = document.getElementById("intro-text-mobile");
+    var sidebarMobileP = document.createElement("p");
+    var sidebarMobilePText = document.createTextNode("hi i'm maddy :—)");
+    sidebarMobileP.appendChild(sidebarMobilePText);
+    sidebarMobileP.appendChild(document.createElement("br"));
+    sidebarMobilePText2 = document.createTextNode("welcome 2 my portfolio");
+    sidebarMobileP.appendChild(sidebarMobilePText2);
+    sidebarMobile.appendChild(sidebarMobileP);
+
+}

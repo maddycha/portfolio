@@ -160,7 +160,7 @@ main a:hover, #intro a:hover{
     height: 100vh;
     position: fixed;
     top: 0%;
-    transition: all 1s ease;
+/*    transition: all 1s ease;*/
 }
 
 #home-rightcol{
@@ -840,7 +840,7 @@ img {vertical-align: middle;}
         padding: 0;
     }
 
-    .intro-text-mobile{
+    #intro-text-mobile{
         float: left;
         width: 60%;
         padding-left: 2rem;
