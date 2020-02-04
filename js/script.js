@@ -133,8 +133,8 @@ function loadSidebar(){
 
     var sidebar = document.getElementById("intronew");
     sidebar.appendChild(introP);
-    
-//expP holds all text in sidebar
+
+    //expP holds all text in sidebar
     var expP = document.createElement("p");
     //bold studies @ line
     var expSpan = document.createElement("span");
@@ -147,19 +147,19 @@ function loadSidebar(){
     var expEduText1 = document.createTextNode("carnegie mellon");
     expP.appendChild(expEduText1);
     expP.appendChild(document.createElement("br"));
-        var expEduText2 = document.createTextNode("design + hci");
+    var expEduText2 = document.createTextNode("design + hci");
     expP.appendChild(expEduText2);
-        expP.appendChild(document.createElement("br"));
-        expP.appendChild(document.createElement("br"));
-    
+    expP.appendChild(document.createElement("br"));
+    expP.appendChild(document.createElement("br"));
+
     //bold worked @ line
-     var expSpan2 = document.createElement("span");
+    var expSpan2 = document.createElement("span");
     expSpan2.setAttribute("class", "bold");
     var expSpanText2 = document.createTextNode("worked @");
     expSpan2.appendChild(expSpanText2);
     expP.appendChild(expSpan2);
-        expP.appendChild(document.createElement("br"));
-    
+    expP.appendChild(document.createElement("br"));
+
     //worked @ line 1
     var expWorkText = document.createTextNode("twitter — ");
     var expWorkSpan = document.createElement("span");
@@ -168,8 +168,8 @@ function loadSidebar(){
     expWorkSpan.appendChild(expWorkSpanText);
     expP.appendChild(expWorkText);
     expP.appendChild(expWorkSpan);
-            expP.appendChild(document.createElement("br"));
-    
+    expP.appendChild(document.createElement("br"));
+
     //worked @ line 2
     var expWorkText2 = document.createTextNode("livity — ");
     var expWorkSpan2 = document.createElement("span");
@@ -178,9 +178,9 @@ function loadSidebar(){
     expWorkSpan2.appendChild(expWorkSpanText2);
     expP.appendChild(expWorkText2);
     expP.appendChild(expWorkSpan2); 
-            expP.appendChild(document.createElement("br"));
+    expP.appendChild(document.createElement("br"));
 
-        
+
     //worked @ line 3
     var expWorkText2 = document.createTextNode("nvidia — ");
     var expWorkSpan2 = document.createElement("span");
@@ -199,8 +199,8 @@ function loadSidebar(){
     copyrightP.appendChild(copyrightPText);
     copyright.appendChild(copyrightP);
     expP.appendChild(copyright);
-    
-    
+
+
     var sidebarExp = document.getElementById("exp");
     sidebarExp.appendChild(expP);
 
