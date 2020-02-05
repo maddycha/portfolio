@@ -554,14 +554,14 @@ h5{
 .gallery3 img{
     width: 32.5%;
     box-sizing: border-box;
-    height:auto;
+    height: auto !important;
 }
 
 .gallery3, .gallery4, .gallery5{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height:auto;
+    height: auto !important;
 }
 
 .gallery7 img{
