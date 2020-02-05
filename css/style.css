@@ -871,7 +871,7 @@ img {vertical-align: middle;}
 
     #intro-text-mobile{
         float: left;
-        width: 70%;
+        width: 65%;
         padding-left: 2rem;
         box-sizing: border-box;
         padding-top: 2rem;
@@ -879,7 +879,7 @@ img {vertical-align: middle;}
 
     #meimg-mobile{
         float: left;
-        width: 120px;
+        width: 100px;
         /*        padding-right: 2rem;*/
         /*        border: 1px black solid;*/
         box-sizing: border-box;
