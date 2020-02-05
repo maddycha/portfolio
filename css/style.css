@@ -127,8 +127,8 @@ main a:hover, #intro a:hover{
     border-bottom: none;
     position: fixed;
     top: 0%;
-    left: 8.1rem;
-    left: 8.1rem;
+/*-211*/
+    left: 85px;
     -webkit-transform: rotate(270deg);
     -webkit-transform-origin: right top;
     -moz-transform: rotate(270deg);
@@ -154,7 +154,7 @@ main a:hover, #intro a:hover{
 
 #home-header p{
     display: inline-block;
-    width: 4rem;
+    width: 70px;
     height: 1.8rem;
     text-align: center;
     border-right: solid 1px black;
@@ -185,7 +185,7 @@ main a:hover, #intro a:hover{
 }
 
 #home-leftcol{
-    width: 22rem;
+    width: 325px;
     height: 100vh;
     position: fixed;
     top: 0%;
@@ -194,7 +194,7 @@ main a:hover, #intro a:hover{
 
 #home-rightcol{
     min-height: 100%;
-    left: 22rem;
+    left: 325px;
     border-left: solid 1px black;
     background-color: #eee;
     top: 0%;
