@@ -127,7 +127,7 @@ main a:hover, #intro a:hover{
     border-bottom: none;
     position: fixed;
     top: 0%;
-/*-211*/
+    /*-211*/
     left: 85px;
     -webkit-transform: rotate(270deg);
     -webkit-transform-origin: right top;
@@ -880,8 +880,8 @@ img {vertical-align: middle;}
     #meimg-mobile{
         float: left;
         width: 120px;
-/*        padding-right: 2rem;*/
-/*        border: 1px black solid;*/
+        /*        padding-right: 2rem;*/
+        /*        border: 1px black solid;*/
         box-sizing: border-box;
         margin-bottom: 0rem;
         padding-bottom: 1rem;
