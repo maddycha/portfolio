@@ -14,6 +14,10 @@ html {
     overscroll-behavior: none;
 }
 
+#home-header a p:hover{
+    color: red;
+}
+
 img{
     -webkit-user-select: none;
     -khtml-user-select: none;
