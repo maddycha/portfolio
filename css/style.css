@@ -797,12 +797,18 @@ img {vertical-align: middle;}
         width: 50%;
         float: left;
         margin-bottom: none;
+        box-sizing: border-box;
+    }
+    
+    .skills{
+        padding-right: 10%;
     }
 
     .projecttext, .rightcol, .leftcol{
         width: 100%;
         margin: 0;
         padding: 0;
+        margin-bottom: 2rem;
     }
 
     #home-leftcol{
@@ -852,7 +858,7 @@ img {vertical-align: middle;}
         margin-top: 2rem;
     }
 
-    .subheader, .projecttext{
+    .subheader{
         padding: 0;
         margin-bottom: 1.4rem;
     }
@@ -968,5 +974,9 @@ img {vertical-align: middle;}
     
     .skills{
         margin: 0;
+    }
+    
+    .project-nav{
+        display: none;
     }
 }
