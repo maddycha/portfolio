@@ -358,6 +358,10 @@ figure:hover { transform: scale(1.02); }
     font-weight: 600;
 }
 
+.normal{
+    font-weight: 400;
+}
+
 #g1, #g2, #g3, #g4{
     color: #999;
 }
@@ -463,6 +467,32 @@ h5{
     padding-left: 10%;
     box-sizing: border-box;
     font-weight: bold;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.project-nav{
+    clear: both;
+    margin-bottom: 2rem;
+}
+
+.border-top{
+    border-top: solid 1px black;
+}
+
+
+.left{
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    box-sizing: border-box;
+    border-right: solid 1px black;
 }
 
 .smallerimg{
