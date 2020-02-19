@@ -239,9 +239,7 @@ main a:hover, #intro a:hover{
 
 .light{
     font-family: neue-haas-grotesk-display, sans-serif;
-
     font-weight: 200;
-
     font-style: normal;
 }
 
@@ -592,7 +590,7 @@ h5{
 }
 
 .italic{
-    font-style: italic;
+    font-style: normal;
 }
 
 .italicsmall{
