@@ -14,16 +14,17 @@ html {
     overscroll-behavior: none;
 }
 
-#home-header a p:hover{
-    color: red;
-}
-
 img{
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+.thumb-full:hover{
+    color: #eee;
+    background: #000;
 }
 
 #home-leftcol{
@@ -90,6 +91,7 @@ main a:hover, #intro a:hover{
 
 .project-text{
     padding: 2rem;
+    padding-top: 3rem;
 }
 
 .aboutleftcol{
@@ -362,8 +364,67 @@ figure:hover { transform: scale(1.02); }
 
 /*PROJECT PAGES*/
 
+.sparkle{
+    width: 60px;
+    position: absolute;
+    filter: invert(100%);
+}
+
+.problem-space h4{
+    margin-bottom: 0.6rem;
+    color: #eee;
+}
+
+.problem-space{
+    background: #000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.problem-space .projecttext{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    clear: both;
+    padding-left: 10%;
+    width: 80%;
+    color: #eee;
+}
+
+h4{
+    margin-bottom: 0.6rem;
+}
+
+/*
+.projecttext{
+padding-left: 10%;
+clear: both;
+width: 70% !important;
+font-size: 1rem;
+line-height: 1.6rem;
+}
+*/
+
+.problem-space{
+    position: relative;
+}
+
+.sparkle:first-of-type{
+    left: 2rem;
+    top: 2rem;
+}
+
+.sparkle:nth-of-type(2){
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.sparkle:nth-of-type(3){
+    top: 1rem;
+    right: 6rem;
+}
+
 .brief h3, .rightcol{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 h2{
@@ -455,9 +516,11 @@ h5{
 .subheader{
     width: 50%;
     float: left;
-    /*    padding-left: 2rem;*/
+    padding-left: 10%;
     box-sizing: border-box;
     font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .right{
@@ -470,6 +533,11 @@ h5{
 
 .project-nav{
     clear: both;
+}
+
+.right:hover, .left:hover, #home-header a p:hover{
+    background: black;
+    color: white;
 }
 
 .border-top{
@@ -496,7 +564,7 @@ h5{
 
 .projecttext{
     width: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     float: left;
     padding-right: 10%;
     box-sizing: border-box;
@@ -676,9 +744,13 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-    /*  max-width: 1000px;*/
     position: relative;
     margin: auto;
+}
+
+.dots{
+    background: white;
+    padding: 1rem;
 }
 
 /* Next & previous buttons */
@@ -757,6 +829,9 @@ img {vertical-align: middle;}
     background-color: #f00;
 }
 
+.leftcol .bold, .rightcol .bold{
+    /*    color: red;*/
+}
 
 
 /* Fading animation */
@@ -768,12 +843,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4} 
+    from {opacity: 1} 
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: 1} 
     to {opacity: 1}
 }
 
@@ -781,7 +856,7 @@ img {vertical-align: middle;}
     margin-bottom: 2rem;
 }
 
-#last .thumb-full{
+.last .thumb-full{
     border-bottom: none;
 }
 
@@ -799,7 +874,7 @@ img {vertical-align: middle;}
         margin-bottom: none;
         box-sizing: border-box;
     }
-    
+
     .skills{
         padding-right: 10%;
     }
@@ -809,6 +884,10 @@ img {vertical-align: middle;}
         margin: 0;
         padding: 0;
         margin-bottom: 2rem;
+    }
+
+    .projecttext{
+        margin-bottom: 3rem;
     }
 
     #home-leftcol{
@@ -941,10 +1020,10 @@ img {vertical-align: middle;}
         display: block;
     }
 
-    #last .thumb-full{
+    .last .thumb-full{
         border-bottom: solid 1px black;
     }
-    #last-mobile .thumb-full{
+    .last-mobile .thumb-full{
         border-bottom: none;
     }
 
@@ -960,7 +1039,7 @@ img {vertical-align: middle;}
         max-width: 100%;
         float: left;
     }
-    
+
     .firstcol, .secondcol, .thirdcol{
         width: 100%;
         clear: both;
@@ -971,12 +1050,53 @@ img {vertical-align: middle;}
     .thirdcol{
         margin-bottom: 1.5rem;
     }
-    
+
     .skills{
         margin: 0;
     }
-    
+
     .project-nav{
         display: none;
     }
+    .sparkle{
+        width: 40px;
+        position: absolute;
+        filter: invert(100%);
+    }
+
+    .problem-space h4{
+        margin-bottom: 0.6rem;
+        color: #eee;
+    }
+
+    .problem-space{
+        background: #000;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .problem-space .projecttext{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        clear: both;
+        padding-left: 0%;
+        width: 100%;
+        color: #eee;
+    }
+    
+    .sparkle:first-of-type{
+    left: 0.5rem;
+    top: 1rem;
+}
+
+.sparkle:nth-of-type(2){
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.sparkle:nth-of-type(3){
+    top: 2rem;
+    right: 6rem;
+}
+
 }
