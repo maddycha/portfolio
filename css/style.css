@@ -162,7 +162,7 @@ main a:hover, #intro a:hover{
     position: fixed;
     top: 0%;
     /*-211*/
-    left: 85px;
+    left: 60px;
     -webkit-transform: rotate(270deg);
     -webkit-transform-origin: right top;
     -moz-transform: rotate(270deg);
@@ -228,7 +228,7 @@ main a:hover, #intro a:hover{
 
 #home-rightcol{
     min-height: 100%;
-    left: 325px;
+    left: 300px;
     border-left: solid 1px black;
     background-color: #eee;
     top: 0%;
