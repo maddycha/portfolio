@@ -1,8 +1,10 @@
+/*
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
     html { font-family: 'Inter var', sans-serif; }
 }
+*/
 
 /*CUSTOM CODE*/
 
@@ -79,7 +81,7 @@ main a:hover, #intro a:hover{
 }
 
 .project-section, .play-section, .index-section{
-    clear: both;
+/*    clear: both;*/
     border-bottom: 1px solid black;
 }
 
@@ -432,9 +434,10 @@ h2{
 }
 
 .projectlist{
+    font-size: 0.8rem;
+    line-height: 1.3rem;
     width: 50%;
     margin-bottom: 2rem;
-    line-height: 1.6rem;
     margin-left: 50%;
     padding-right: 10%;
     box-sizing: border-box;
@@ -447,11 +450,11 @@ ul{
     list-style-type: none;
 }
 ul> li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 ul> li:before {
-    margin-left: -1rem;
+    margin-left: -0.8rem;
     content: "—";
 }
 
@@ -462,6 +465,25 @@ ul> li:before {
     height: 0;
     clear: both;
 }
+
+.amazonvideowrapper { 
+      padding-bottom: 62%;
+    position: relative;
+    height: 0;
+    clear: both;
+    margin-top: -1rem;
+}
+
+.amazonvideowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    /*    margin-top: -13px;*/
+}
+
 
 .playwrapper{
     float: left;
@@ -566,6 +588,10 @@ h5{
     float: left;
     padding-right: 10%;
     box-sizing: border-box;
+}
+
+.beforelist{
+    margin-bottom: 2rem;
 }
 
 .playprojecttext{
@@ -1081,20 +1107,20 @@ img {vertical-align: middle;}
         width: 100%;
         color: #eee;
     }
-    
+
     .sparkle:first-of-type{
-    left: 0.5rem;
-    top: 1rem;
-}
+        left: 0.5rem;
+        top: 1rem;
+    }
 
-.sparkle:nth-of-type(2){
-    right: 2rem;
-    bottom: 2rem;
-}
+    .sparkle:nth-of-type(2){
+        right: 2rem;
+        bottom: 2rem;
+    }
 
-.sparkle:nth-of-type(3){
-    top: 2rem;
-    right: 6rem;
-}
+    .sparkle:nth-of-type(3){
+        top: 2rem;
+        right: 6rem;
+    }
 
 }
