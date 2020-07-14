@@ -673,9 +673,8 @@ h5{
 
 .gallery3 img{
     width: 33.333%;
-    float: left;
+/*    float: left;*/
     box-sizing: border-box;
-    height: auto !important;
 }
 
 .gallery3, .gallery4, .gallery5{
