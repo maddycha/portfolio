@@ -92,7 +92,7 @@ a, a:hover{
 	position: relative;
 	background: #f9f0f0;
 	border-radius: 30px;
-    padding: 25px;
+    padding: 30px;
 }
 
 .speech-bubble:after {
@@ -110,11 +110,11 @@ a, a:hover{
 }
   
   body{
-margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+margin: 10%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
   
   display: block;
   justify-content: center;
