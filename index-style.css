@@ -1,7 +1,15 @@
 html{
     font-family: 'Space Mono', monospace;
   color: maroon;
+  
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='100' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🐁</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  
   }
+
+
+a, a:hover{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='100' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🤡</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
 
 #me{
     width: 28%;
@@ -73,6 +81,7 @@ p{
 
 a, a:hover{
   text-decoration: none;
+  color: maroon;
 }
 
 
