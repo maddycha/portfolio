@@ -3,7 +3,7 @@
 body{
     margin: auto;
 background: linear-gradient(100deg, #fff 30%, #eee);
-    overscroll-behavior: none;
+    overscroll-behavior-y: none;
 }
 
 p{
