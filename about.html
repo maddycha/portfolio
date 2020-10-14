@@ -1,19 +1,21 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>maddy cha</title>
-        <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <!--        <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css">-->
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="imgs/home-play-about/favicon.png"/>        
+        <link rel="shortcut icon" type="image/png" href="imgs/misc/favicon.png"/>        
         <meta http-equiv="Cache-control" content="public">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/script.js" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144670648-1"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -21,248 +23,103 @@
             gtag('config', 'UA-144670648-1');
         </script>
     </head>
+    <body onload="populatePage();">
+       
+                <main>
+            <div class="spacer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <a href="http://maddycha.com/" class="no-underline" id="logo">maddy cha</a>
+                    </div>
+                    <div class="col-sm-1" style="text-align: right;">
+                        <a class="no-underline" id="link1"></a>
+                    </div>
+                    <div class="col-sm-1" style="text-align: right;">
+                        <a href="" class="no-underline" id="link2"></a>
+                    </div>
+                    <div class="col-sm-1" style="text-align: right;">
+                        <a href="" class="no-underline" id="link3"></a>
+                    </div>
 
-    <body> 
-        <main>
-            <div id="home-leftcol-mobile">
-                <div id="intro-text-mobile">
-                    <p>hi i'm maddy :—)
-                        <br>
-                        welcome 2 my portfolio
-                    </p>
                 </div>
-
-                <img draggable="false" src="imgs/home-play-about/me-animated.gif" class="homeimg" id="meimg-mobile">
-            </div>
-            <div class="clear"></div>
-
-            <div id="home-leftcol">
-                <a draggable="false" href="http://maddycha.com/"><img src="imgs/home-play-about/me-animated.gif" class="homeimg" id="meimg" draggable="false"></a>
-                <div id="home-intro">
-                    <div id="intronew">
-                        <p>hi i'm maddy :—)
-                            <br>
-                            welcome 2 my portfolio~*~*~
-                        </p>
-                    </div>
-                    <div id="exp">
-                        <p><span class="bold">studied @</span>
-                            <br>
-                            carnegie mellon
-                            <br>
-                            design + hci
-                            <br><br></p>
-                        <p><span class="bold">worked @</span>
-                            <br>
-                            twitter — <span class="light">summer 2019</span>
-                            <br>
-                            livity — <span class="light">summer 2018</span>
-                            <br>
-                            nvidia — <span class="light">summer 2018</span>
-                        </p> 
-
-                        <div class="copyright"><p>&copy; maddy cha 2020</p></div>
-                    </div>
-                </div>
+                <div class="spacer"></div>
             </div>
 
 
-            <div id="home-header">
-                <a href="http://maddycha.com/"><p id="workLink">work</p></a><a href="play"><p id="playLink">play</p></a><a href="about"><p class="current-page" id="aboutLink"  style="border-right: none">about</p></a>
-            </div>
+            <!--
+<div class="intro">
 
+<div class="container">
+<div class="row">
 
-            <div id="home-rightcol">
-                <div id="home-rightcol-content">
-
-
-                    <div id="about-tab">
-                        <div class="aboutleftcol">
-                            <p>studied communication design &amp; human computer interaction @ <a href="http://cmu.edu/" target="_blank">cmu</a>
-                                <br>
-                                likes illustration, animation, and video games
-                                <br>
-                                <br>
-                                currently playing <a href="https://www.youtube.com/watch?v=_3YNL0OWio0" target="_blank">animal crossing new horizons</a>!
-                                <br>
-                                thanks 4 tuning in :—)
-
-                                <br><br><br>
-                                <a href="mailto:mecha@andrew.cmu.edu">email</a> <span class="squiggle">〰️</span> <a href="https://www.linkedin.com/in/maddycha/" target="_blank">linkedin</a> <span class="squiggle">〰️</span> <a href="maddycha-resume.pdf" target="_blank">resume</a>
-
-                        </div>
-                        <div class="aboutrightcol">
-
-
-
-                            <p><span class="bold">my favorite pokemon</span></p>
-                            <img class="pokemon" src="https://img.pokemondb.net/sprites/black-white/anim/shiny/haxorus.gif" draggable="false"><img class="pokemon" src="https://img.pokemondb.net/sprites/black-white/anim/shiny/charizard.gif" draggable="false">                           
-                            <br><br>
-                            <p><span class="bold">my acnh villagers</span></p>
-                            <img class="ac" src="https://66.media.tumblr.com/5346ad7e59195c6f30b5682bb3497491/tumblr_inline_o1dbax3BGa1stmbqz_75sq.gifv" draggable="false"><img class="ac" src="https://66.media.tumblr.com/d6f5e8a8e279dac74e92ec64bace3950/tumblr_inline_o19cwqrNdS1stmbqz_500.gif" draggable="false"><img class="ac" src="https://i.imgur.com/aGq04Ls.png" draggable="false"><img class="ac" src="https://66.media.tumblr.com/2c1da651e96c58ad3e3b24c73ab7b7b9/tumblr_inline_o19lq1FqnJ1stmbqz_500.gif" draggable="false"><img class="ac" src="https://66.media.tumblr.com/45faddede2df809a654969e84ae6c0c3/tumblr_inline_o19detsRf21stmbqz_500.gif" draggable="false"><img class="ac" src="https://66.media.tumblr.com/287e04cd6a860606f594d6ec5e403b4c/tumblr_inline_o19lgoURMO1stmbqz_500.gif" draggable="false"><img class="ac" src="https://i.imgur.com/nWyPHlv.png" draggable="false"><img class="ac" src="https://66.media.tumblr.com/9927fe6bd4d974ddeffa3734f1406ccb/tumblr_inline_o19mcrX2GJ1stmbqz_500.gif" draggable="false"><img class="ac" src="https://66.media.tumblr.com/133b34434889ecd5180dffc844e30481/tumblr_inline_o19lo5HwjH1stmbqz_500.gif" draggable="false"><img class="ac" src="https://64.media.tumblr.com/29b68c02fd2df30d366050aa657edbe7/tumblr_inline_o19lciCYuD1stmbqz_500.gif" draggable="false">
-                            
-                                                                
-                            <!--
-<br><br>
-<p><span class="bold">my pokemon mystery dungeon dx team</span></p>
-<img class="pokemon" src="https://cdn.bulbagarden.net/upload/thumb/1/1c/300Skitty_PMD_Rescue_Team_DX.png/144px-300Skitty_PMD_Rescue_Team_DX.png" draggable="false"><img class="pokemon" src="https://cdn.bulbagarden.net/upload/thumb/8/89/004Charmander_PMD_Rescue_Team_DX.png/103px-004Charmander_PMD_Rescue_Team_DX.png" draggable="false">
--->
-
-
-
-
-                        </div>
-                        <div class="clear"></div>
-
-                    </div>
-
-
-                    <div class="resume border-top">
-                        <section class="resume-section">
-                            <div class="firstcol">
-                                <p class="bold">studied @</p>
-                            </div>
-                            <div class="secondcol">
-                                <p>Carnegie Mellon University</p>
-                                <p class="italic">Class of 2020</p></div>
-                            <div class="thirdcol">
-                                <p>BDes in Communication Design</p>
-                                <p>BHCI in Human Computer Interaction</p>
-                                <p>Minor in Media Design</p></div>
-                        </section>
-
-
-                    <div class="clear border-top"></div>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold">worked @</p>
-                        </div>
-                        <div class="secondcol">
-                            <p>Teaching Assistant, CMU Design</p>
-                            <p class="italic">Spring 2020</p></div>
-                        <div class="thirdcol">
-                            <p>Assists students at various skill levels with learning and troubleshooting HTML/CSS &amp; Javascript as a TA for a UX systems course</p></div>
-                    </section>
-
-                    <div class="clear"></div>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold"></p>
-                        </div>
-                        <div class="secondcol">
-                            <p>Product Design Intern, Twitter</p>
-                            <p class="italic">Summer 2019</p></div>
-                        <div class="thirdcol">
-                            <p>Worked on redesigning Periscope profiles with a focus on improving health on the platform. Led a team of designers and developers to improve the content, visuals, and interaction of viewing profiles through Periscope and Twitter based on research analysis</p></div>
-                    </section>
-
-                    <div class="clear"></div>
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold"></p>
-                        </div>
-                        <div class="secondcol">
-                            <p>Marketing Assistant, Heinz College</p>
-                            <p class="italic">2018—Present</p></div>
-                        <div class="thirdcol">
-                            <p>Developed infographics for the purpose of promoting Carnegie Mellon’s graduate school programs and created animation tests for an in-progress lecture series</p></div>
-                    </section>
-
-
-                    <div class="clear"></div>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold"></p>
-                        </div>
-                        <div class="secondcol">
-                            <p>Graphic Designer, Livity</p>
-                            <p class="italic">Summer 2018—Fall 2018</p></div>
-                        <div class="thirdcol">
-                            <p>Researched and collaborated with other designers in order to develop brand standards and assets for client project with a focus on After Effects motion graphics</p></div>
-                    </section>
-
-
-                    <div class="clear"></div>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold"></p>
-                        </div>
-                        <div class="secondcol">
-                            <p>Graphic Design Intern, NVIDIA</p>
-                            <p class="italic">Summer 2018</p></div>
-                        <div class="thirdcol">
-                            <p>Worked as part of the Creative Marketing team to create assets and designs based on existing brand standards for print, web, and merchandise and ported/reformatted brand standards for internal use</p></div>
-                    </section>
-
-
-                    <div class="clear border-top"></div>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold">good @</p>
-                        </div>
-                        <div class="secondcol">
-                            <p>skills</p></div>
-                        <div class="thirdcol skills">
-                            <p>Graphic Design, Web Design, Rapid Prototyping, User Research, Motion Graphics, Illustration</p></div>
-                    </section>
-
-                    <section class="resume-section">
-                        <div class="firstcol">
-                            <p class="bold"></p>
-                        </div>
-                        <div class="secondcol">
-                            <p>tools</p></div>
-                        <div class="thirdcol">
-                            <p>Adobe CC, Procreate, HTML/CSS, Javascript, Sketch, Figma, Axure, Origami Studio</p></div>
-                    </section>
-                                        </div>
-                                
-
-
-
-
-
-                    <!--
-<div class="mobileview">
-<p><span class="bold">studies @</span>
+<div class="col-sm-4 intro-text border-right-sm" id="no-padding">
+<img src="imgs/misc/tryingagain.png">
+</div>
+<div class="col-sm-8">
+<div class="spacer"></div>
+<h4>about me—</h4>
+<p class="body-text">hi i'm maddy (she/her), currently working on messenger and instagram in san francisco.
 <br>
-carnegie mellon
+i recently graduated from cmu majoring in communication design and hci.
 <br>
-design + hci
-<br><br></p>
-<p><span class="bold">worked @</span>
-<br>
-twitter — <span class="light">summer 2019</span>
-<br>
-livity — <span class="light">summer 2018</span>
-<br>
-nvidia — <span class="light">summer 2018</span>
-
-<br><br><br>
-<a href="mailto:mecha@andrew.cmu.edu">email</a> <span class="squiggle">〰️</span> <a href="https://www.linkedin.com/in/maddycha/" target="_blank">linkedin</a> <span class="squiggle">〰️</span> <a href="maddycha-resume.pdf" target="_blank">resume</a>
-</p>
+outside of work, i love illustration, animation, and video games.</p>
+<p class="body-text">i'm most proud of my acnh island</p>
+<div class="spacer"></div>
+<h6><a class="no-underline" href="https://twitter.com/mildfruit" target="_blank">&#8599; twitter</a> <a class="no-underline"  href="mailto:maddycha@gmail.com">&#8599; email</a> <a class="no-underline" href="https://www.linkedin.com/in/maddycha/" target="_blank">&#8599; linkedin</a></h6>
+<div class="spacer"></div>
+</div>
+</div>
+</div>
 </div>
 -->
+
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="spacer"></div>
+                        <h4>about me—</h4>
+                        <div class="spacer"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 border-right-sm" id="no-padding">
+                        <img src="imgs/misc/tryingagain.png">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="spacer"></div>
+
+                        <p class="body-text">hi i'm maddy (she/her) and i don't take myself too seriously.
+                            <br>currently working on messenger and instagram in san francisco.
+                            <br>
+                            i recently graduated from cmu majoring in communication design and hci.
+                            <br>
+                            outside of work, i love illustration, animation, and video games.</p>
+                        <p class="body-text">recently, i've been very into <a href="https://www.blaseball.com/" target="_blank">blaseball</a> and animal crossing new horizons.
+                            <br>
+                            <span class="small-light">(my dream address code is DA-0661-1314-8973!)</span>
+                            <br><br>
+                            thanks for tuning in! :—&#41;</p>
+                        <div class="spacer"></div>
+                        <h6 class="position-bottom"><a class="no-underline" href="https://twitter.com/mildfruit" target="_blank">&#8599; twitter</a> <a class="no-underline"  href="mailto:maddycha@gmail.com">&#8599; email</a> <a class="no-underline" href="https://www.linkedin.com/in/maddycha/" target="_blank">&#8599; linkedin</a></h6>
+                        <div class="spacer-sm"></div>
+                    </div>
                 </div>
 
             </div>
+
+
+
+            <footer class="container" id="footer">
+                <div class="spacer"></div>
+                <p>&copy; maddy cha 2020</p></footer>
+            <div class="spacer"></div>
         </main>
-
-
-        <div class="clear"></div>
-
-
-
-        <footer>
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-        </footer>
-
     </body>
 </html>
