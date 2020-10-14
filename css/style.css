@@ -1,0 +1,351 @@
+@import url(sporting-grotesque/font.css);
+
+body{
+    margin: auto;
+background: linear-gradient(100deg, #fff 30%, #eee);
+    overscroll-behavior: none;
+}
+
+p{
+    margin-bottom: 0.2rem;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+.intro{
+        position: relative;
+}
+
+#abbi:hover .stickers, #twitter:hover .stickers, #aiga:hover .stickers, #final:hover .stickers{
+    display: block;
+}
+
+.stickers{
+    width: 200px;
+    display: none;
+    position: absolute;
+    z-index: 100;
+
+}
+
+.thumb-section{
+    position: relative;
+}
+
+.s1{
+    left: -10%;
+    transform: rotate(-20deg);
+    top: 20%;
+}
+
+.s2{
+    left: 40%;
+    transform: rotate(15deg);
+    top: -15%;
+}
+
+.s3{
+    left: -5%;
+    transform: rotate(2deg);
+    top: 50%;
+}
+
+.s4{
+    left: 95%;
+    transform: rotate(-10deg);
+    top: 20%;
+}
+
+.s5{
+    left: 20%;
+    transform: rotate(40deg);
+    top: 30%;
+}
+
+.s6{
+    left: 86%;
+    transform: rotate(-30deg);
+    top: 60%;
+}
+
+.spacer{
+    height: 30px;
+}
+
+.spacer-sm{
+    height: 30px;
+}
+
+img, video{
+    width: 100%;
+}
+
+main{
+    font-family: "Sporting Grotesque_Regular";
+    line-height: 1.45;
+}
+
+.abbi-color{
+    color: #FF5A5F;
+}
+
+/*
+.un-color{
+    color: #3782B2;   
+}
+*/
+
+.final-color{
+    color: #ff522c;
+}
+
+.aiga-color{
+    color: #EBB35F;
+}
+
+.twitter-color{
+    color: #1DA1F2;
+}
+
+h4{
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+#thumbs h6{
+    padding-bottom: 0;
+}
+
+h6{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding-bottom: 0.4rem;
+}
+
+a{
+    color: currentColor;
+    text-decoration: underline;
+}
+
+#thumbs{
+        border-bottom: none;
+}
+   
+#thumbs a{
+    text-decoration: none;
+}
+
+#thumbs a:hover{
+    color: currentColor;
+    /*        border-bottom: 1px solid currentcolor;*/
+    text-decoration: none;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.position-bottom{
+    position: absolute;
+    bottom: 30px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+#thumbs .row{
+    border-bottom: solid 1px black;
+}
+
+/*
+#thumbs .row:last-child{
+    border-bottom: none;
+}
+*/
+
+#no-padding{
+    padding-right: 0 !important;
+}
+
+/*
+#abbi:hover{
+background: #ff5a5f;
+}
+
+#abbi:hover .abbi-color, #abbi:hover{
+color: white;
+}
+*/
+
+a:hover{
+    color: red;
+    /*        border-bottom: 1px solid currentcolor;*/
+    text-decoration: none;
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+.container{
+    border-bottom: solid 1px currentcolor;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#index-img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#footer{
+    border-bottom: none;
+}
+
+.border-right-sm{
+    border-right: solid 1px black;
+    padding-right: 20px !important;
+}
+
+.thumbs{
+    width: 100%;
+}
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /*    padding-top: 25px;*/
+    height: 0;
+    clear: both;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    /*    margin-top: -13px;*/
+}
+
+.small-light{
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.body-text{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: none;
+    margin-top: 0.8rem;
+    line-height: 1.5;
+}
+
+.list-text{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: none;
+}
+
+h3{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.carousel-item{
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    body{
+        margin: 20px;
+    }
+
+    .border-right-sm{
+        border-right: none !important;
+    }
+
+    .position-bottom{
+        position: relative;
+        bottom: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #index-img{
+        display: none;
+    }
+
+    .thumb-text{
+        order: 2;
+    }
+
+    .thumb-img-col{
+        order: 1;
+    }
+
+    h4{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    h6{
+        font-size: 0.4rem;
+        text-transform: uppercase;
+    }
+
+    #no-padding{
+        padding-right: 15px !important;
+    }
+
+    .spacer-sm{
+        height: 0px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
