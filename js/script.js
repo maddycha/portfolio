@@ -132,11 +132,11 @@ function addStickers(){
     twitterStickers();
     finalStickers();
     aigaStickers();
-    populateNav();
+//    populateNav();
 }
 
 function populatePage(){
-    populateNav();
+//    populateNav();
 }
 
 
