@@ -215,6 +215,9 @@ a:hover{
     }
 }
 
+ #right-web{
+        text-align: right;
+    }
 
 .container{
     border-bottom: solid 1px currentcolor;
@@ -306,6 +309,14 @@ h3{
     display: block;
 }
 
+.hide-mobile{
+    display: block;
+}
+
+.show-mobile{
+    display: none;
+}
+
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -367,8 +378,18 @@ h3{
     .gallery-6{
     display: block;
 }
-
+   
+    #right-web{
+        text-align: left;
+    }
     
+    .hide-mobile{
+    display: none;
+}
+
+.show-mobile{
+    display: block;
+}
 }
 
 /*Medium devices (tablets, 768px and up)*/
