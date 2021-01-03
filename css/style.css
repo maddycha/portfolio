@@ -7,9 +7,7 @@ body{
 }
 
 #aboutimg{
-    padding: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 50px;
 }
 
 p{
@@ -276,6 +274,10 @@ a:hover{
     line-height: 1.5;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .list-text{
     font-family: roc-grotesk, sans-serif;
     font-weight: 300;
@@ -370,15 +372,11 @@ h3{
         height: 0px;
     }
     
-    .giphy{
+    .giphy, .sticker{
     width: 33.33%;
     float: left;
 }
-    
-    .gallery-6{
-    display: block;
-}
-   
+
     #right-web{
         text-align: left;
     }
