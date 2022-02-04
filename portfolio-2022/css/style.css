@@ -161,7 +161,7 @@ h1{
     z-index: 69;
     top: 0;
     width: 100%;
-    mix-blend-mode: exclusion;
+    /* mix-blend-mode: exclusion; */
 }
 
 .clear{
@@ -191,6 +191,7 @@ h1{
     display: inline-block;
     justify-content: space-between;
     margin: 1rem;
+    background: #1b1b1b;
 }
 
 .centered{
