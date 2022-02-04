@@ -1,0 +1,271 @@
+@import url(basteleur/font.css);
+@import url(savate/font.css);
+@import url(sporting-grotesque/font.css);
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.page-border{
+    border: solid 1px white;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    border-radius: 30px;
+    background: #1b1b1b;
+    z-index: -100000;
+}
+
+a{
+    color: white;
+    border-bottom: solid 1px white;
+    font-weight: 400;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover{
+    color: #1b1b1b;
+    background: white;
+}
+
+.intro-links a img{
+    position: absolute;
+    width: 180px;
+    display: none;
+}
+
+.intro-links a:hover img{
+    display: block;
+}
+
+#intro{
+    width: 100%;
+    padding-bottom: 2rem;
+    height: 100vh;
+}
+.intro-text{
+    float: left;
+    width: 33%;
+    position: absolute;
+    top: 70%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.intro-text h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.intro-img{
+    height: 100vh;
+    padding: 1rem;
+}
+.intro-links{
+    font-size: 2rem;
+    padding: 0rem 2rem 0rem 2rem;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.intro-links a p{
+    padding-bottom: 2rem;
+}
+
+/* email */
+.intro-links a:nth-of-type(1) img{
+    left: 0px;
+    top: -20px;
+    transform: rotate(-9deg);
+}
+
+.intro-links a:first-of-type p{
+   transform: rotate(-9deg);
+}
+
+
+/* twitter */
+.intro-links a:nth-of-type(2) img{
+    left: 11px;
+    top: 38px;
+    transform: rotate(2deg);
+}
+
+.intro-links a:nth-of-type(2) p{
+    transform: rotate(2deg);
+}
+
+/* instagram */
+.intro-links a:nth-of-type(3) img{
+    left: 30px;
+    top: 105px;
+    transform: rotate(-2deg);
+}
+
+.intro-links a:nth-of-type(3) p{
+    transform: rotate(-2deg);
+}
+
+/* resume */
+/* .intro-links a:nth-of-type(4) img{
+    left: 0px;
+    top: -40px
+    transform: rotate(4deg);
+} */
+
+.intro-links a:nth-of-type(4) p{
+    transform: rotate(4deg);
+}
+
+.project-text{
+    padding: 2rem;
+    width: 50%;
+    float: left;
+}
+
+.project img{
+    height: 1em;
+}
+
+h1{
+    font-family: basteleur;
+    padding-bottom: 0.4rem;
+    font-size: 1.2rem;
+}
+
+#nav{
+    position: fixed;
+    z-index: 69;
+    top: 0;
+    width: 100%;
+    mix-blend-mode: exclusion;
+}
+
+.clear{
+    float: clear;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#nav a{
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 90px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-imgs{
+    width: 200px;
+}
+
+.small-bites-header, .main-course-header{
+    padding: 2rem;
+}
+
+.border-bottom-white{
+    border-bottom: 1px solid white;
+}
+
+#small-bites{
+    float: left;
+    width: 20%;
+    border-right: 1px solid white;
+}
+
+#main-course{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+body{
+
+    color: #ffffff;
+    font-family: reason-new, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.stickers-img{
+    width: 150px;
+}
+
+
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 150px;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-1800px); }
+}
