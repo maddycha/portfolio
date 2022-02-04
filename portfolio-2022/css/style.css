@@ -66,15 +66,19 @@ a:hover{
     float: left;
     width: 33%;
     position: absolute;
-    top: 70%;
+    bottom: 5%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0rem 2rem 0rem 2rem;
 }
 
 .intro-text h1{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 1rem;
+}
+
+.intro-text h2{
+    font-weight: 400;
 }
 
 .intro-img{
@@ -86,9 +90,9 @@ a:hover{
     padding: 0rem 2rem 0rem 2rem;
     position: absolute;
     right: 2rem;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    bottom: 5%;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 
 .intro-links a p{
@@ -269,4 +273,34 @@ html, body {
 @keyframes marquee {
     from { transform: translateX(0); }
     to { transform: translateX(-1800px); }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    #nav{
+        display: none;
+    }
+
+    #intro{
+        height: auto;
+        padding: 0rem;
+    }
+
+    .intro-img{
+        width: 50%;
+        height: auto;
+    }
+
+    .intro-text, .intro-links{
+        display: none;
+    }
+
+    #small-bites{
+        display: none;
+    }
+
+    #main-course{
+        float: clear;
+    }
 }
