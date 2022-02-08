@@ -75,6 +75,8 @@ a:hover{
 .intro-text h1{
     font-size: 3rem;
     padding-bottom: 1rem;
+    font-family: "reason-new", sans-serif;
+    font-weight: 600;
 }
 
 .intro-text h2{
@@ -144,18 +146,44 @@ a:hover{
     transform: rotate(4deg);
 }
 
-.project-text{
-    padding: 2rem;
+.project{
     width: 50%;
     float: left;
 }
 
-.project img{
-    height: 1em;
+.h2-arrow{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
+.project-text{
+    padding: 2rem;
+}
+
+.project-text h1{
+    font-size: 2rem;
+    font-size: 1.6rem;
+    width: 90%;
+}
+
+.project img{
+    width: 100%;
+}
+
+/* .project:nth-of-type(odd){
+    border-right: solid 1px white;
+} */
+
+/* .project-text:nth-of-type(odd){
+    border-bottom: solid 1px white;
+} */
+
+
 h1{
-    font-family: basteleur;
+    font-family: "reason-new", sans-serif;
+    font-weight: 800;
     padding-bottom: 0.4rem;
     font-size: 1.2rem;
 }
@@ -205,7 +233,7 @@ h1{
 }
 
 .home-imgs{
-    width: 200px;
+    height: 300px;
 }
 
 .small-bites-header, .main-course-header{
@@ -219,13 +247,13 @@ h1{
 #small-bites{
     float: left;
     width: 20%;
-    border-right: 1px solid white;
 }
 
 #main-course{
     float: left;
     width: 80%;
     box-sizing: border-box;
+    border-left: 1px solid white;
 }
 
 body{
@@ -253,8 +281,6 @@ html, body {
     width: 150px;
 }
 
-
-
 .marquee {
     position: relative;
     width: 100vw;
@@ -273,6 +299,10 @@ html, body {
 @keyframes marquee {
     from { transform: translateX(0); }
     to { transform: translateX(-1800px); }
+}
+
+.thumb{
+    border-radius: 90px;
 }
 
 
@@ -302,5 +332,14 @@ html, body {
 
     #main-course{
         float: clear;
+        width: 100%;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+    .project{
+        width: 100%;
     }
 }
