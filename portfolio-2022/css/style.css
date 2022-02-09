@@ -11,12 +11,16 @@ html, body {
     overscroll-behavior-y: none;
 }
 
+body{
+    background: #1b1b1b;
+}
+
 html::-webkit-scrollbar {
     display: none;
 }
 
 html{
-
+    
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -109,7 +113,7 @@ a:hover{
 }
 
 .intro-links a:first-of-type p{
-   transform: rotate(-9deg);
+    transform: rotate(-9deg);
 }
 
 
@@ -147,8 +151,7 @@ a:hover{
 }
 
 .project{
-    width: 50%;
-    float: left;
+    width: 100%;
 }
 
 .h2-arrow{
@@ -160,6 +163,9 @@ a:hover{
 
 .project-text{
     padding: 2rem;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
 }
 
 .project-text h1{
@@ -169,7 +175,8 @@ a:hover{
 }
 
 .project img{
-    width: 100%;
+    width: 50%;
+    float: left;
 }
 
 /* .project:nth-of-type(odd){
@@ -257,7 +264,7 @@ h1{
 }
 
 body{
-
+    
     color: #ffffff;
     font-family: reason-new, sans-serif;
     font-weight: 300;
@@ -301,9 +308,29 @@ html, body {
     to { transform: translateX(-1800px); }
 }
 
-.thumb{
-    border-radius: 90px;
+.project-full{
+    height: 50vh;
+    position: relative;
 }
+
+.project-thumb img{
+    border-radius: 90px;
+    height: 50vh;
+    position: absolute;
+    right: 0;
+}
+
+.thumb-hover{
+    transform: scale(0,0);
+    transform: rotate(0deg);
+    transition: transform .25s ease;
+}
+
+.project-full:hover .thumb-hover{
+    transform: scale(1,1);
+    transform: rotate(-8deg);
+}
+
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -311,34 +338,34 @@ html, body {
     #nav{
         display: none;
     }
-
+    
     #intro{
         height: auto;
         padding: 0rem;
     }
-
+    
     .intro-img{
         width: 50%;
         height: auto;
     }
-
+    
     .intro-text, .intro-links{
         display: none;
     }
-
+    
     #small-bites{
         display: none;
     }
-
+    
     #main-course{
         float: clear;
         width: 100%;
     }
-
+    
     .arrows{
         display: none;
     }
-
+    
     .project{
         width: 100%;
     }
