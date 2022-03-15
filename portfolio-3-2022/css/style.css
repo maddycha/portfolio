@@ -6,13 +6,14 @@
 html, body {
     max-width: 100%;
     font-family: reason-new, sans-serif;
-
+    
     /* font-family: 'neue-haas-grotesk-text', sans-serif; */
     overflow-x: hidden;
     box-sizing: border-box;
     scroll-behavior: smooth;
     overscroll-behavior-y: none;
 }
+
 html::-webkit-scrollbar {
     display: none;
 }
@@ -37,7 +38,8 @@ html{
     border-right: solid black 1px;
     height: 100vh;
     width: 300px;
-    position: absolute;
+    display: block;
+    position: fixed;
 }
 
 #doll img{
@@ -76,7 +78,7 @@ html{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px;
     border-bottom: solid 1px black;
 }
@@ -102,4 +104,130 @@ html{
 h2{
     font-weight: 600;
     padding-bottom: 0.6rem;
+}
+
+.show-mobile{
+    display: none;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+.right-col{
+    margin-left: 300px;
+    width: calc(100% - 475px);
+}
+
+.right-col > div{
+    padding: 50px;
+    border-bottom: solid 1px black;
+}
+
+#footer{
+    border-bottom: none;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 4.8rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links p{
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+a{
+    color: black;
+    border-bottom: 1px solid currentColor;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+a:visited{
+    text-decoration: none;
+}
+
+
+.marquee {
+    position: fixed;
+    width: 175px;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    overflow: hidden;
+    border-left: solid 1px black;
+    background: white;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 15s linear infinite;
+}
+
+.content img{
+    display: block;
+    width: 175px;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(0, -2100px); }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .hide-mobile{
+        display: none;
+    }
+    
+    .show-mobile{
+        display: block;
+    }
+    
+    #mobile-intro img{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    #mobile-intro{
+        margin-top: 10px;
+    }
+    
+    .right-col{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .right-col > div{
+        padding: 20px;
+        border-bottom: solid 1px black;
+    }
+    
+    h1{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    
+    .links p{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
 }
