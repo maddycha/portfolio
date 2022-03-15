@@ -17,6 +17,11 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
 html{
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -78,6 +83,11 @@ html{
 
 #icons{
     padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#currents{
+    padding: 10px;
 }
 
 .category:hover{
@@ -87,4 +97,9 @@ html{
 
 .category:nth-of-type(1){
     font-weight: 600;
+}
+
+h2{
+    font-weight: 600;
+    padding-bottom: 0.6rem;
 }

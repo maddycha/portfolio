@@ -3,6 +3,11 @@
     var bottoms = [];
     var shoes = [];
 
+    var topsbrand = ["oak + fort", "aritzia", "sandy liang", "sami miro vintage"];
+    var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel"];
+    var shoesbrand =["af1 cracked leather", "af1 smile", "lazy oaf x melissa", "adilette slides"];
+
+
     for(var i = 0; i < 4; i++){
         hair.push("imgs/game/hair/" + i + ".png");
     }
@@ -35,14 +40,18 @@ function hairchange(x){
 
 function topschange(x){
     document.getElementById("tops-img").src = tops[x];
+    document.getElementById("topstext").innerHTML = topsbrand[x];
 }
 
 function bottomschange(x){
     document.getElementById("bottoms-img").src = bottoms[x];
+    document.getElementById("bottomstext").innerHTML = bottomsbrand[x];
+
 }
 
 function shoeschange(x){
     document.getElementById("shoes-img").src = shoes[x];
+    document.getElementById("shoestext").innerHTML = shoesbrand[x];
 }
 
 function haircategory(){
