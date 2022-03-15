@@ -1,0 +1,90 @@
+@import url(basteleur/font.css);
+@import url(savate/font.css);
+@import url(sporting-grotesque/font.css);
+
+
+html, body {
+    max-width: 100%;
+    font-family: reason-new, sans-serif;
+
+    /* font-family: 'neue-haas-grotesk-text', sans-serif; */
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#logo img{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.left-col{
+    border-right: solid black 1px;
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+}
+
+#doll img{
+    width: 200px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -10px;
+    left: 0;
+}
+
+#doll img:nth-of-type(1){
+    position: relative;
+}
+
+#doll{
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.choices{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.choices img{
+    width: 60px;
+}
+
+#tops, #bottoms, #shoes{
+    display: none;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+
+#icons{
+    padding: 10px;
+}
+
+.category:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.category:nth-of-type(1){
+    font-weight: 600;
+}
