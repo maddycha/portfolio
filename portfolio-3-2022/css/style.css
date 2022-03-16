@@ -240,9 +240,9 @@ a:visited{
         display: none;
     }
     
-    /* .show-mobile{
+    .show-mobile{
         display: block;
-    } */
+    }
 
 
     .left-col{
@@ -279,10 +279,52 @@ a:visited{
         font-size: 2rem;
         line-height: 2.4rem;
     }
+
+    .linksrow1, .linksrow2{
+        display: flex;
+        justify-content: space-between;
+    }
     
-    .links p{
+    .links-mobile p{
         font-size: 1.2rem;
         padding-top: 1rem;
         padding-bottom: 0.5rem;
     }
+    
+
+
+#projects{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border-bottom: none;
+}
+
+.project{
+    float: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.project > *{
+    box-sizing: border-box;
+    border-bottom: solid 1px black;
+}
+
+.project h3{
+    padding: 50px;
+}
+
+.project img{
+    width: 100%;
+}
+
+.project:nth-child(odd){
+    border-right: none;
+}
+
+.project:nth-child(even){
+    border-right: none;
+}
+
 }
