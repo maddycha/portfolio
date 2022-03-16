@@ -26,12 +26,6 @@ html{
     scrollbar-width: none;
 }
 
-#logo img{
-    width: 200px;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-
 .left-col{
     border-right: solid black 1px;
     height: 100vh;
@@ -40,12 +34,22 @@ html{
     position: fixed;
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#logo img{
+    width: 200px;
+}
+
 #doll img{
     width: 200px;
     position: absolute;
-    margin-left: 50px;
-    margin-top: -10px;
-    left: 0;
+    left: 50;
+    margin: 0 auto;
 }
 
 #doll img:nth-of-type(1){
@@ -55,9 +59,10 @@ html{
 #doll{
     border-bottom: 1px solid black;
     padding-bottom: 30px;
+    width: 100%;
 }
 
-.choices{
+.row1, .row2{
     width: 60px;
     display: flex;
     justify-content: space-between;
@@ -66,6 +71,11 @@ html{
 
 .choices img{
     width: 60px;
+    height: 60px;
+}
+
+.choices{
+    height: 150px;
 }
 
 #tops, #bottoms, #shoes{
@@ -230,14 +240,26 @@ a:visited{
         display: none;
     }
     
-    .show-mobile{
+    /* .show-mobile{
         display: block;
+    } */
+
+
+    .left-col{
+        border-right: none;
+        height: auto;
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    #doll img{
+        left: 55;
     }
     
     #mobile-intro img{
         width: 40%;
         display: block;
-        margin: 0 auto;
     }
     #mobile-intro{
         margin-top: 10px;

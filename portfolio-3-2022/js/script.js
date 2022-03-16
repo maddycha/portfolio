@@ -3,8 +3,8 @@
     var bottoms = [];
     var shoes = [];
 
-    var topsbrand = ["oak + fort", "aritzia", "sandy liang", "sami miro vintage"];
-    var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel"];
+    var topsbrand = ["oak + fort", "aritzia", "sandy liang", "sami miro vintage", "daily paper", "laams", "heron preston", "la apparel"];
+    var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel", "urban outfitters", "wegangyoung", "aritzia"];
     var shoesbrand =["af1 cracked leather", "af1 smile", "lazy oaf x melissa", "adilette slides"];
 
 
@@ -60,7 +60,7 @@ function haircategory(){
     document.getElementById("bottomscategory").style = "font-weight: 400";
     document.getElementById("shoescategory").style = "font-weight: 400";
 
-    document.getElementById("hair").style = "display: flex;";
+    document.getElementById("hair").style = "display: block;";
     document.getElementById("tops").style = "display: none;";
     document.getElementById("bottoms").style = "display: none";
     document.getElementById("shoes").style = "display: none";
@@ -73,7 +73,7 @@ function topscategory(){
     document.getElementById("shoescategory").style = "font-weight: 400";
 
     document.getElementById("hair").style = "display: none;";
-    document.getElementById("tops").style = "display: flex;";
+    document.getElementById("tops").style = "display: block;";
     document.getElementById("bottoms").style = "display: none";
     document.getElementById("shoes").style = "display: none";
 }
@@ -86,7 +86,7 @@ function bottomscategory(){
 
     document.getElementById("hair").style = "display: none;";
     document.getElementById("tops").style = "display: none;";
-    document.getElementById("bottoms").style = "display: flex";
+    document.getElementById("bottoms").style = "display: block";
     document.getElementById("shoes").style = "display: none";
 }
 
@@ -99,5 +99,5 @@ function shoescategory(){
     document.getElementById("hair").style = "display: none;";
     document.getElementById("tops").style = "display: none;";
     document.getElementById("bottoms").style = "display: none";
-    document.getElementById("shoes").style = "display: flex";
+    document.getElementById("shoes").style = "display: block";
 }
