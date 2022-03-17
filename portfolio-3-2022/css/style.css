@@ -148,7 +148,7 @@ h1{
 }
 
 .links p{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-top: 3rem;
     padding-bottom: 0.5rem;
 }
@@ -222,13 +222,13 @@ a:visited{
 }
 
 .project-text h3{
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding-bottom: 10px;
     font-weight: 500;
 }
 
 .project-text h4{
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .project img{
@@ -242,6 +242,42 @@ a:visited{
 .project:nth-child(odd){
     border-right: solid 1px black;
 }
+
+
+
+@media screen and (min-width: 576px) and (max-width: 1300px) {
+
+    #projects{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    .project{
+        float: none;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .project > *{
+        box-sizing: border-box;
+        border-bottom: solid 1px black;
+    }
+    
+    .project img{
+        width: 100%;
+    }
+    
+    .project:nth-child(odd){
+        border-right: none;
+    }
+    
+    .project:nth-child(even){
+        border-right: none;
+    }
+}
+
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -336,20 +372,7 @@ a:visited{
         border-right: none;
     }
     
-    
     .project-text{
         padding: 20px;
     }
-    
-    .project-text h3{
-        font-size: 1.4rem;
-        padding-bottom: 10px;
-        font-weight: 500;
-    }
-    
-    .project-text h4{
-        font-size: 1rem;
-    }
-    
-    
 }
