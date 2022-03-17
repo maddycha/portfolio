@@ -135,6 +135,7 @@ h2{
 
 #footer{
     border-bottom: none;
+    position: relative;
 }
 
 h1{
@@ -241,6 +242,21 @@ a:visited{
 
 .project:nth-child(odd){
     border-right: solid 1px black;
+}
+
+#spark-img{
+    position: absolute;
+    right: 2%;
+    width: 100px;
+    top: -30%;
+}
+
+#heart-img{
+    position: absolute;
+    right: 20%;
+    width: 90px;
+    bottom: 10%;
+    transform: rotate(-10deg);
 }
 
 
@@ -374,5 +390,9 @@ a:visited{
     
     .project-text{
         padding: 20px;
+    }
+
+    #spark-img{
+        display: none;
     }
 }
