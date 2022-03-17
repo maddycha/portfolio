@@ -4,7 +4,7 @@
     var shoes = [];
 
     var topsbrand = ["oak + fort", "daily paper", "sandy liang", "sami miro vintage", "heron preston", "aritzia", "wegangyoung", "kith"];
-    var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel", "urban outfitters", "wegangyoung", "aritzia"];
+    var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel", "urban outfitters", "wegangyoung", "aritzia", "theory"];
     var shoesbrand =["af1 cracked leather", "af1 smile", "lazy oaf x melissa", "adilette slides"];
 
 
