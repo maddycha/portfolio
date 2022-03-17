@@ -3,7 +3,7 @@
     var bottoms = [];
     var shoes = [];
 
-    var topsbrand = ["oak + fort", "aritzia", "sandy liang", "sami miro vintage", "daily paper", "laams", "heron preston", "la apparel"];
+    var topsbrand = ["oak + fort", "aritzia", "sandy liang", "sami miro vintage", "heron preston", "laams", "daily paper", "kith"];
     var bottomsbrand = ["aritzia", "uniqlo", "aritzia", "la apparel", "urban outfitters", "wegangyoung", "aritzia"];
     var shoesbrand =["af1 cracked leather", "af1 smile", "lazy oaf x melissa", "adilette slides"];
 
@@ -12,11 +12,11 @@
         hair.push("imgs/game/hair/" + i + ".png");
     }
 
-    for(var i = 0; i < 4; i++){
+    for(var i = 0; i < 8; i++){
         tops.push("imgs/game/tops/" + i + ".png");
     }
 
-    for(var i = 0; i < 4; i++){
+    for(var i = 0; i < 8; i++){
         bottoms.push("imgs/game/bottoms/" + i + ".png");
     }
 
