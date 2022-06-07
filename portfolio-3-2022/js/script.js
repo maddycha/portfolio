@@ -101,3 +101,9 @@ function shoescategory(){
     document.getElementById("bottoms").style = "display: none";
     document.getElementById("shoes").style = "display: block";
 }
+
+
+
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+}

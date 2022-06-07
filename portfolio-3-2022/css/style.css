@@ -18,6 +18,31 @@ html::-webkit-scrollbar {
 p{
     font-size: 1rem;
     line-height: 1.3rem;
+    font-weight: 300;
+}
+
+video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /*    padding-top: 25px;*/
+    height: 0;
+    clear: both;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    /*    margin-top: -13px;*/
 }
 
 html{
@@ -101,7 +126,7 @@ html{
 
 .category:hover{
     cursor: pointer;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .category:nth-of-type(1){
@@ -128,7 +153,7 @@ h2{
     border-right: solid 1px black;
 }
 
-.right-col > div{
+.home-divs > div{
     padding: 50px;
     border-bottom: solid 1px black;
 }
@@ -160,9 +185,10 @@ a{
 }
 
 a:hover{
-    color: red;
+    color: black;
     text-decoration: none;
-    font-weight: 500;
+    /* text-transform: uppercase; */
+    color: red;
 }
 
 
@@ -230,6 +256,7 @@ a:visited{
 
 .project-text h4{
     font-size: 1rem;
+    font-weight: 300;
 }
 
 .project img{
@@ -259,10 +286,56 @@ a:visited{
     transform: rotate(-10deg);
 }
 
+.project-name{
+    font-weight: 500;
+}
+
+.project-desc{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.project-left-col >  div{
+    padding: 20px;
+}
+
+.project-details{
+    bottom: 0px;
+    position: absolute;
+}
+
+.section-title{
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+section{
+    padding: 50px;
+    border-bottom: solid 1px black;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-border{
+    border-bottom: none;
+}
+
+.text-only{
+    width: 60%;
+    margin-left:
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 576px) and (max-width: 1300px) {
-
+    
     #projects{
         width: 100%;
         box-sizing: border-box;
@@ -292,7 +365,14 @@ a:visited{
     .project:nth-child(even){
         border-right: none;
     }
+
+    .text-only{
+        width: 100%;
+        margin-left: 0;
+    }
+    
 }
+
 
 
 
@@ -300,6 +380,15 @@ a:visited{
 @media screen and (min-width: 0px) and (max-width: 576px) {
     .hide-mobile{
         display: none;
+    }
+
+    .project-details{
+        position: relative;
+    }
+
+    .text-only{
+        width: 100%;
+        margin-left: 0;
     }
     
     .show-mobile{
@@ -391,8 +480,18 @@ a:visited{
     .project-text{
         padding: 20px;
     }
-
+    
     #spark-img{
         display: none;
     }
+}
+
+
+
+.abbi{
+    color: #FF5A5F
+}
+
+.twitter{
+    color: #1da1f2;
 }
