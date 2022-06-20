@@ -446,15 +446,6 @@ section h3, section h2, section p{
         display: block;
     }
     
-    
-    .left-col{
-        border-right: none;
-        height: auto;
-        width: 100%;
-        display: block;
-        position: relative;
-    }
-    
     #doll img{
         left: 85;
     }
@@ -473,8 +464,8 @@ section h3, section h2, section p{
     }
     
     .right-col > div{
-        padding: 20px;
-        border-bottom: solid 1px black;
+        padding: 0px;
+        /* border-bottom: solid 1px black; */
     }
     
     h1{
@@ -532,8 +523,82 @@ section h3, section h2, section p{
         padding: 20px;
     }
     
-    #spark-img{
+    .spark-img, .heart-img{
         display: none;
+    }
+
+    section h3{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 0.8rem;
+    }
+    
+    section h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 0.2rem;
+    }
+    
+    .project-desc{
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    section p{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .project-name-mobile{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .project-details-mobile section{
+
+    }
+
+    .project-details-mobile p, .project-details-mobile h3{
+        padding-bottom: 0px;
+    }
+
+    #footer, .project-footer p, .intro{
+        padding: 20px;
+    }
+
+    .links-mobile{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .intro h1{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .links-mobile p{
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+
+    #footer p{
+        font-size: 0.6rem;
+    }
+
+    .project-text h3{
+        font-size: 0.6rem;
+        padding-bottom: 4px;
+    }
+
+    .project-text h4{
+        font-size: 0.8rem;
     }
 }
 
