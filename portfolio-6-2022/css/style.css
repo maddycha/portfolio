@@ -11,6 +11,18 @@ html, body {
     overscroll-behavior-y: none;
 }
 
+#home-link a{
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: none;
+}
+
+#home-link{
+    padding: 20px;
+    border-bottom: solid 1px black;
+}
+
+
 html::-webkit-scrollbar {
     display: none;
 }
@@ -116,7 +128,9 @@ html{
     justify-content: space-between;
     text-align: center;
     font-weight: 400;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: solid 1px black;
 }
 
@@ -126,7 +140,8 @@ html{
 }
 
 #currents{
-    padding: 10px;
+    padding: 20px;
+    padding-top: 15px;
 }
 
 #currents p{
