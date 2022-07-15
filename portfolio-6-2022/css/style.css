@@ -2,6 +2,10 @@
 @import url(savate/font.css);
 @import url(sporting-grotesque/font.css);
 
+/* *{
+    cursor: url("https://i.imgur.com/dF2R43n.png"), auto;
+} */
+
 html, body {
     max-width: 100%;
     font-family: reason-new, sans-serif;
@@ -198,9 +202,15 @@ h2{
     border-top: solid 1px black;
 }
 
-h1{
+.intro h1{
     font-size: 4rem;
-    line-height: 4.8rem;
+    line-height: 4rem;
+}
+
+h1{
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 1rem;
 }
 
 .links{
@@ -582,6 +592,7 @@ section h3, section h2, section p{
         padding-left: 20px;
         padding-top: 20px;
         padding-right: 20px;
+        font-weight: 500;
     }
     
     .project-details-mobile section{
@@ -604,7 +615,7 @@ section h3, section h2, section p{
     
     .intro h1{
         font-size: 1rem;
-        line-height: 1.6rem;
+        line-height: 0.7rem;
     }
     
     .links-mobile p{
@@ -617,8 +628,8 @@ section h3, section h2, section p{
     }
     
     .project-text h3{
-        font-size: 0.6rem;
-        padding-bottom: 4px;
+        font-size: 0.8rem;
+        padding-bottom: 8px;
     }
     
     .project-text h4{
@@ -634,4 +645,8 @@ section h3, section h2, section p{
 
 .twitter{
     color: #1da1f2;
+}
+
+.msgr-ig{
+    color: #7051FF;
 }
