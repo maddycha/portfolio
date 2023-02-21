@@ -3,8 +3,8 @@
     var bottoms = [];
     var shoes = [];
 
-    var topsbrand = ["expired girl chloe blouse", "thrifted", "heron preston camou", "aritzia reso sweater", "sandy liang haribo top", "thrifted", "aritzia tuesday button-up ", "re/done classic tee"];
-    var bottomsbrand = ["expired girl check skirt", "la apparel tennis skirt", "wegangyoung purin skirt", "aritzia ibiza short", "aritzia ascendant pant", "uniqlo wide pant", "theory high waisted pant", "aritzia effortless pant"];
+    var topsbrand = ["expired girl chloe blouse", "thrifted", "heron preston camou", "aritzia reso sweater", "sandy liang haribo top", "thrifted", "aritzia tuesday button-up ", "justpeachy miffy tee"];
+    var bottomsbrand = ["expired girl check skirt", "la apparel tennis skirt", "wegangyoung purin skirt", "mymummadeit pointelle skirt", "aritzia ascendant pant", "uniqlo wide pant", "theory high waisted pant", "aritzia effortless pant"];
     var shoesbrand =["buffalo classic lows", "af1 cracked leather", "af1 smile", "melissa x lazy oaf kick-off"];
 
 
@@ -53,49 +53,49 @@ function shoeschange(x){
     document.getElementById("shoestext").innerHTML = shoesbrand[x];
 }
 
-function misccategory(){
-    document.getElementById("misccategory").style = "font-weight: 600";
-    document.getElementById("topscategory").style = "font-weight: 400";
-    document.getElementById("bottomscategory").style = "font-weight: 400";
-    document.getElementById("shoescategory").style = "font-weight: 400";
+// function misccategory(){
+//     document.getElementById("misccategory").style = "font-weight: 600";
+//     document.getElementById("topscategory").style = "font-weight: 400";
+//     document.getElementById("bottomscategory").style = "font-weight: 400";
+//     document.getElementById("shoescategory").style = "font-weight: 400";
 
-    document.getElementById("misc").style = "display: block;";
-    document.getElementById("tops").style = "display: none;";
-    document.getElementById("bottoms").style = "display: none";
-    document.getElementById("shoes").style = "display: none";
-}
+//     document.getElementById("misc").style = "display: block;";
+//     document.getElementById("tops").style = "display: none;";
+//     document.getElementById("bottoms").style = "display: none";
+//     document.getElementById("shoes").style = "display: none";
+// }
 
 function topscategory(){
-    document.getElementById("misccategory").style = "font-weight: 400";
+    // document.getElementById("misccategory").style = "font-weight: 400";
     document.getElementById("topscategory").style = "font-weight: 600";
     document.getElementById("bottomscategory").style = "font-weight: 400";
     document.getElementById("shoescategory").style = "font-weight: 400";
 
-    document.getElementById("misc").style = "display: none;";
+    // document.getElementById("misc").style = "display: none;";
     document.getElementById("tops").style = "display: block;";
     document.getElementById("bottoms").style = "display: none";
     document.getElementById("shoes").style = "display: none";
 }
 
 function bottomscategory(){
-    document.getElementById("misccategory").style = "font-weight: 400";
+    // document.getElementById("misccategory").style = "font-weight: 400";
     document.getElementById("topscategory").style = "font-weight: 400";
     document.getElementById("bottomscategory").style = "font-weight: 600";
     document.getElementById("shoescategory").style = "font-weight: 400";
 
-    document.getElementById("misc").style = "display: none;";
+    // document.getElementById("misc").style = "display: none;";
     document.getElementById("tops").style = "display: none;";
     document.getElementById("bottoms").style = "display: block";
     document.getElementById("shoes").style = "display: none";
 }
 
 function shoescategory(){
-    document.getElementById("misccategory").style = "font-weight: 400";
+    // document.getElementById("misccategory").style = "font-weight: 400";
     document.getElementById("topscategory").style = "font-weight: 400";
     document.getElementById("bottomscategory").style = "font-weight: 400";
     document.getElementById("shoescategory").style = "font-weight: 600";
 
-    document.getElementById("misc").style = "display: none;";
+    // document.getElementById("misc").style = "display: none;";
     document.getElementById("tops").style = "display: none;";
     document.getElementById("bottoms").style = "display: none";
     document.getElementById("shoes").style = "display: block";
