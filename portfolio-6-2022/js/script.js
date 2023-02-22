@@ -4,7 +4,7 @@
     var shoes = [];
 
     var topsbrand = ["expired girl chloe blouse", "thrifted", "heron preston camou", "aritzia reso sweater", "sandy liang haribo top", "thrifted", "aritzia tuesday button-up ", "justpeachy miffy tee"];
-    var bottomsbrand = ["expired girl check skirt", "la apparel tennis skirt", "wegangyoung purin skirt", "mymummadeit pointelle skirt", "aritzia ascendant pant", "uniqlo wide pant", "theory high waisted pant", "aritzia effortless pant"];
+    var bottomsbrand = ["expired girl check skirt", "la apparel tennis skirt", "wegangyoung purin skirt", "mymummadeit skirt", "aritzia ascendant pant", "uniqlo wide pant", "theory high waisted pant", "aritzia effortless pant"];
     var shoesbrand =["buffalo classic lows", "af1 cracked leather", "af1 smile", "melissa x lazy oaf kick-off"];
 
 
