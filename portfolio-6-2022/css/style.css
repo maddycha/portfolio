@@ -308,6 +308,14 @@ a:visited{
     width: 100%;
 }
 
+.gallery-2 img{
+    width: 50%;
+}
+
+.gallery-3 img{
+    width: 33.3333333%;
+}
+
 .project:nth-child(even){
     border-right: solid 1px transparent;
 }
@@ -653,4 +661,8 @@ section h3, section h2, section p{
 
 .aiga{
     color: #EBB35F;
+}
+
+.illustration{
+    color: #FF0000;
 }
