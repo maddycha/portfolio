@@ -1,161 +1,236 @@
-<html>
-    <head>
-        <title>maddy cha</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-        <!--        <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css">-->
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="imgs/misc/favicon.png"/>        
-        <meta http-equiv="Cache-control" content="public">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144670648-1"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-144670648-1');
-        </script>
-    </head>
-    <body onload="addStickers();">
-         <main>
-            <div class="spacer"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <a href="http://maddycha.com/" class="no-underline" id="logo">maddy cha</a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="index" class="no-underline" id="link1">design</a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="illustration" class="no-underline" id="link2">illustration</a>
-                    </div>
-                    <div class="col-sm-1" id="right-web">
-                        <a href="about" class="no-underline" id="link3">about</a>
-                    </div>
+<head>
+    <title>maddy cha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css"> -->
+    <link rel="stylesheet" href="https://use.typekit.net/ekg8pwz.css">
+    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="imgs/misc/favicon.png"/>        
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144670648-1"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-144670648-1');
+    </script>
+</head>
+
+<body>
+    <main>
+        <div class="clear"></div>
+        <div id="game" class="home-section">
+            
+            <div class="left-col hide-mobile">
+                <div id="home-link"><a href="https://maddycha.com/">maddy cha</a></div>
+                
+                <div id="doll">
+                    <img id="relative" src="imgs/game/relative.png">
+                    <img id="base" src="imgs/game/base.png">
+                    <!-- <img id="misc-img" src="imgs/game/misc/0.png"> -->
+                    <img id="bottoms-img" src="imgs/game/bottoms/0.png">
+                    <img id="tops-img" src="imgs/game/tops/0.png">
+                    <img id="shoes-img" src="imgs/game/shoes/0.png">
+                    <img id="jewelry" src="imgs/game/jewelry.png">
 
                 </div>
-                <div class="spacer"></div>
+                
+                
+                <div id="categories">
+                    <p class="category" id="topscategory" onclick="topscategory()">tops</p>
+                    <p class="category" id="bottomscategory" onclick="bottomscategory()">bottoms</p>
+                    <p class="category" id="shoescategory" onclick="shoescategory()">shoes</p>
+                    <!-- <p class="category" id="misccategory" onclick="misccategory()">misc</p> -->
+                </div>
+                
+                <div id="icons">
+                    
+                    <div id="tops" class="choices">
+                        <div class="row1">
+                            <img src="imgs/game/choices/tops/0.png" onclick="topschange(0);">
+                            <img src="imgs/game/choices/tops/1.png" onclick="topschange(1);">
+                            <img src="imgs/game/choices/tops/2.png" onclick="topschange(2);">
+                            <img src="imgs/game/choices/tops/3.png" onclick="topschange(3);">
+                        </div>
+                        <div class="row2">
+                            <img src="imgs/game/choices/tops/4.png" onclick="topschange(4);">
+                            <img src="imgs/game/choices/tops/5.png" onclick="topschange(5);">
+                            <img src="imgs/game/choices/tops/6.png" onclick="topschange(6);">
+                            <img src="imgs/game/choices/tops/7.png" onclick="topschange(7);">
+                        </div>
+                    </div>
+                    
+                    <div id="bottoms" class="choices">
+                        <div class="row1">
+                            <img src="imgs/game/choices/bottoms/0.png" onclick="bottomschange(0);">
+                            <img src="imgs/game/choices/bottoms/1.png" onclick="bottomschange(1);">
+                            <img src="imgs/game/choices/bottoms/2.png" onclick="bottomschange(2);">
+                            <img src="imgs/game/choices/bottoms/3.png" onclick="bottomschange(3);">
+                        </div>
+                        <div class="row2">
+                            <img src="imgs/game/choices/bottoms/4.png" onclick="bottomschange(4);">
+                            <img src="imgs/game/choices/bottoms/5.png" onclick="bottomschange(5);">
+                            <img src="imgs/game/choices/bottoms/6.png" onclick="bottomschange(6);">
+                            <img src="imgs/game/choices/bottoms/7.png" onclick="bottomschange(7);">
+                        </div>
+                    </div>
+                    
+                    <div id="shoes" class="choices">
+                        <div class="row1">
+                            <img src="imgs/game/choices/shoes/0.png" onclick="shoeschange(0);">
+                            <img src="imgs/game/choices/shoes/1.png" onclick="shoeschange(1);">
+                            <img src="imgs/game/choices/shoes/2.png" onclick="shoeschange(2);">
+                            <img src="imgs/game/choices/shoes/3.png" onclick="shoeschange(3);">
+                        </div>
+                    </div>
+<!-- 
+                    <div id="misc" class="choices">
+                        <div class="row1">
+                            <img src="imgs/game/choices/misc/0.png" onclick="miscchange(0)">
+                            <img src="imgs/game/choices/misc/1.png" onclick="miscchange(1)">
+                            <img src="imgs/game/choices/misc/2.png" onclick="miscchange(2)">
+                            <img src="imgs/game/choices/misc/3.png" onclick="miscchange(3)">
+                        </div>
+                    </div> -->
+                    
+                </div>
+                
+                <div id="currents" class="hide-mobile">
+                    <p><span style="font-weight: 500;">top</span><span id="topstext">expired girl chloe blouse</span></p>
+                    <p><span style="font-weight: 500;">bottoms</span><span id="bottomstext">expired girl check skirt</span></p>
+                    <p><span style="font-weight: 500;">shoes</span><span id="shoestext">buffalo classic lows</span></p>    
+                </div>
             </div>
+            
+            
+            <div class="right-col home-divs">
+
+                <div id="home-link" class="show-mobile"><a href="https://maddycha.com/">maddy cha</a></div>
 
 
-            <div class="intro">
-
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-sm-9 intro-text border-right-sm">
-                            <div class="spacer"></div>
-                            <h4>hi i'm maddy! currently a product designer in sf.</h4>
-                            <div class="spacer"></div>
-                            <h6><a class="no-underline" href="https://twitter.com/maddycha" target="_blank">&#8599; twitter</a> <a class="no-underline"  href="mailto:maddycha@gmail.com">&#8599; email</a> <a class="no-underline" href="https://www.linkedin.com/in/maddycha/" target="_blank">&#8599; linkedin</a></h6>
-                            <div class="spacer"></div>
-
+                <div class="section">
+                    <div class="intro">
+                        <h1>hi i'm maddy (she/her)</h1>
+                        <h1>designer on <a href="https://instagram.com">&#x293B; instagram</a> currently in nyc</h1>
+                        <h1>thanks 4 tuning in :—)</h1>
+                    </div>
+                    <div class="links hide-mobile">        
+                        <a href="mailto:maddycha@gmail.com" target="_blank"><p>&#x293B; email </p></a>
+                        <a href="https://twitter.com/maddycha" target="_blank"><p>&#x293B; twitter </p></a>
+                        <a href="https://instagram.com/maddycha" target="_blank"><p>&#x293B; instagram </p></a>
+                        <a href="https://giphy.com/maddycha" target="_blank"><p>&#x293B; giphy </p></a>    
+                    </div>
+                    
+                    <div class="links-mobile show-mobile">        
+                        <div class="linksrow1">
+                            <a href="mailto:maddycha@gmail.com" target="_blank"><p>&#x293B; email </p></a>
+                            <a href="https://twitter.com/maddycha" target="_blank"><p>&#x293B; twitter </p></a>
                         </div>
-                        <div class="col-sm-3">
-                            <img id="index-img" src="imgs/misc/me-animated.gif">
+                        <div class="linksrow2">
+                            <a href="https://instagram.com/mildfruit" target="_blank"><p>&#x293B; instagram </p></a>
+                            <a href="https://giphy.com/maddycha" target="_blank"><p>&#x293B; giphy </p></a>    
                         </div>
                     </div>
                 </div>
-
-                <div class="container" id="thumbs">
+                
+                <div id="projects">
+                    <a href="msgr-ig">
+                        <div class="project">
+                            <img class="project-img border-left-none" src="imgs/thumbs/msgr-ig-thumb.png">
+                            <div class="project-text">
+                                <h3>messenger &amp; instagram</h3>
+                                <h4>search, sharing, &amp; personalization work</h4>
+                            </div>
+                        </div>
+                    </a>
                     <a href="abbi">
-                        <div class="row no-gutters thumb-section" id="abbi">
-                            <div id="abbi-stickers">
-
-                            </div>
-
-                            <div class="col-sm-4 border-right-sm thumb-text">
-                                <div class="spacer"></div>
-                                <h2 class="abbi-color">abbi—</h2>
-                                <h2>conversational interface for airbnb</h2>
-
-                                <div class="position-bottom"><h6>motion graphics, illustration, branding</h6></div>
-                            </div>
-                            <div class="col-sm-8 thumb-img-col">
-                                <img id="abbi-thumb" class="thumb-img" src="imgs/thumbs/abbi-thumb.gif">
+                        <div class="project">
+                            <img class="project-img" src="imgs/thumbs/abbi-thumb.gif">
+                            <div class="project-text">
+                                <h3>abbi</h3>
+                                <h4>conversational user interface for airbnb</h4>
                             </div>
                         </div>
                     </a>
 
+                    
+                    <a href="illustration">
+                        <div class="project">
+                            <img class="project-img  border-left-none" src="imgs/thumbs/illustration.png">
+                            <div class="project-text">
+                                <h3>illustration</h3>
+                                <h4>assortment of digital drawings</h4>
+                            </div>
+                        </div>
+                    </a>
+<!-- 
+                    <a href="aiga">
+                        <div class="project">
+                            <img class="project-img  border-left-none" src="imgs/thumbs/monsters-thumb.gif">
+                            <div class="project-text">
+                                <h3>aiga monsters</h3>
+                                <h4>visualizing design census data</h4>
+                            </div>
+                        </div>
+                    </a> -->
 
                     <a href="twitter">
-                        <div class="row no-gutters thumb-section" id="twitter">
-                            <div id="twitter-stickers">
-
-                            </div>
-                            <div class="col-sm-4 border-right-sm thumb-text">
-                                <div class="spacer"></div>
-                                <h2 class="twitter-color">twitter—</h2>
-                                <h2>profiles redesign for periscope</h2>
-
-                                <div class="position-bottom"><h6>ui/ux, prototyping</h6></div>
-                            </div>
-                            <div class="col-sm-8 thumb-img-col">
-                                <img id="twitter-thumb" class="thumb-img" src="imgs/thumbs/twitter-thumb.png">
+                        <div class="project">
+                            <img class="project-img" src="imgs/thumbs/twitter-icon-2.gif">
+                            <div class="project-text">
+                                <h3>twitter</h3>
+                                <h4>profile redesign for periscope</h4>
                             </div>
                         </div>
                     </a>
 
-                    <a href="final-show">
-                        <div class="row no-gutters thumb-section" id="final">
-                            <div id="final-stickers">
-
-                            </div>
-
-
-                            <div class="col-sm-4 border-right-sm thumb-text">
-                                <div class="spacer"></div>
-                                <h2 class="final-color">final.show—</h2>
-                                <h2>school of design senior show</h2>
-
-                                <div class="position-bottom"><h6>branding, cinema4d, illustration</h6></div>
-                            </div>
-                             <div class="col-sm-8 thumb-img-col">
-                                <img id="aiga-thumb" class="thumb-img" src="imgs/thumbs/final-show.png">
+                    <!-- <a href="overfishing">
+                        <div class="project">
+                            <img class="project-img  border-left-none" src="imgs/thumbs/fish-thumb.gif">
+                            <div class="project-text">
+                                <h3>UN overfishing video</h3>
+                                <h4>increasing awareness through animation</h4>
                             </div>
                         </div>
-                    </a>
-
-                    <a href="aiga">
-                        <div class="row no-gutters thumb-section" id="aiga">
-                            <div id="aiga-stickers">
-
-                            </div>
-
-
-                            <div class="col-sm-4 border-right-sm thumb-text">
-                                <div class="spacer"></div>
-                                <h2 class="aiga-color">aiga monsters—</h2>
-                                <h2>visualizing design census data</h2>
-
-                                <div class="position-bottom"><h6>web design, HTML/CSS, javascript</h6></div>
-                            </div>
-                            <div class="col-sm-8 thumb-img-col">
-                                <img id="aiga-thumb" class="thumb-img" src="imgs/thumbs/monsters-thumb.gif">
-                            </div>
-                        </div>
-                    </a>
-
-
-
+                    </a> -->
+                    
+                    <div class="clear"></div>
                 </div>
-
-
-
+                
+                <div id="footer"><p>&copy; maddy cha 2022</p>
+                    <img class="heart-img" src="imgs/stickers/heart.gif">
+                    <img class="spark-img" src="imgs/stickers/spark.gif">
+                </div>
             </div>
-
-            <footer class="container" id="footer">
-                <div class="spacer"></div>
-                <p>&copy; maddy cha 2020</p></footer>
-            <div class="spacer"></div>
-        </main>
-    </body>
-</html>
+            
+            <div class="marquee hide-mobile rotate">
+                <a href="https://giphy.com/maddycha" target="_blank">
+                    <div class="track">
+                        <div class="content">
+                            <img class="stickers-img" src="imgs/stickers/gif1.gif"><img class="stickers-img" src="imgs/stickers/gif2.gif"><img class="stickers-img" src="imgs/stickers/gif3.gif"><img class="stickers-img" src="imgs/stickers/gif4.gif"><img class="stickers-img" src="imgs/stickers/gif5.gif"><img class="stickers-img" src="imgs/stickers/gif6.gif"><img class="stickers-img" src="imgs/stickers/gif7.gif"><img class="stickers-img" src="imgs/stickers/gif8.gif"><img class="stickers-img" src="imgs/stickers/gif9.gif"><img class="stickers-img" src="imgs/stickers/gif10.gif"><img class="stickers-img" src="imgs/stickers/gif11.gif"><img class="stickers-img" src="imgs/stickers/gif12.gif">
+                            <img class="stickers-img" src="imgs/stickers/gif1.gif"><img class="stickers-img" src="imgs/stickers/gif2.gif"><img class="stickers-img" src="imgs/stickers/gif3.gif"><img class="stickers-img" src="imgs/stickers/gif4.gif"><img class="stickers-img" src="imgs/stickers/gif5.gif"><img class="stickers-img" src="imgs/stickers/gif6.gif"><img class="stickers-img" src="imgs/stickers/gif7.gif"><img class="stickers-img" src="imgs/stickers/gif8.gif"><img class="stickers-img" src="imgs/stickers/gif9.gif"><img class="stickers-img" src="imgs/stickers/gif10.gif"><img class="stickers-img" src="imgs/stickers/gif11.gif"><img class="stickers-img" src="imgs/stickers/gif12.gif">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <footer>
+            
+            <script type="text/javascript" src="js/script.js"></script>
+            
+            
+        </footer>
+        
+    </main>
+</body>

@@ -1,153 +1,108 @@
-    var stickerImages = [];
+    var misc = [];
+    var tops = [];
+    var bottoms = [];
+    var shoes = [];
 
-    for(var i = 0; i < 16; i++){
-        stickerImages.push("imgs/stickers/" + i + ".png");
+    var topsbrand = ["expired girl chloe blouse", "thrifted", "heron preston camou", "aritzia reso sweater", "sandy liang haribo top", "thrifted", "aritzia tuesday button-up ", "justpeachy miffy tee"];
+    var bottomsbrand = ["expired girl check skirt", "la apparel tennis skirt", "wegangyoung purin skirt", "mymummadeit skirt", "aritzia ascendant pant", "uniqlo wide pant", "theory high waisted pant", "aritzia effortless pant"];
+    var shoesbrand =["buffalo classic lows", "af1 cracked leather", "af1 smile", "melissa x lazy oaf kick-off"];
+
+
+    for(var i = 0; i < 8; i++){
+        tops.push("imgs/game/tops/" + i + ".png");
     }
 
-
-console.log("starting " + stickerImages);
-
-function abbiStickers(){
-    var position = [];
-    var stickerPosition = ["s1", "s2", "s3", "s4", "s5", "s6"];
+    for(var i = 0; i < 8; i++){
+        bottoms.push("imgs/game/bottoms/" + i + ".png");
+    }
 
     for(var i = 0; i < 4; i++){
-        var randomPosition = Math.floor(Math.random() * stickerPosition.length);
-        position.push(stickerPosition[randomPosition]);
-        stickerPosition.splice(randomPosition, 1);
+        shoes.push("imgs/game/shoes/" + i + ".png");
     }
-    var stickers = [];
+
     for(var i = 0; i < 4; i++){
-        var randomSticker = Math.floor(Math.random() * stickerImages.length);
-        stickers.push(stickerImages[randomSticker]);
-        stickerImages.splice(randomSticker, 1);
+        misc.push("imgs/game/misc/" + i + ".png");
     }
-    document.getElementById("abbi-stickers").innerHTML = ""; 
-    for (var i = 0; i < 4; i++){
-        var stickerImg = document.createElement("img");
-        stickerImg.setAttribute("src", stickers[i]);
-        stickerImg.setAttribute("class", position[i]);
-        stickerImg.classList.add("stickers");
-        var stickerList = document.getElementById("abbi-stickers");
-        stickerList.append(stickerImg);
-    }
-    
-    console.log("after abbi " + stickerImages);
+
+
+    document.getElementById("base").ondragstart = function() { return false; };
+    document.getElementById("misc-img").ondragstart = function() { return false; };
+    document.getElementById("tops-img").ondragstart = function() { return false; };
+    document.getElementById("bottoms-img").ondragstart = function() { return false; };
+    document.getElementById("shoes-img").ondragstart = function() { return false; };
+
+
+
+function miscchange(x){
+    document.getElementById("misc-img").src = misc[x];
 }
 
-function twitterStickers(){
-    var position = [];
-    var stickerPosition = ["s1", "s2", "s3", "s4", "s5", "s6"];
-
-    for(var i = 0; i < 4; i++){
-        var randomPosition = Math.floor(Math.random() * stickerPosition.length);
-        position.push(stickerPosition[randomPosition]);
-        stickerPosition.splice(randomPosition, 1);
-    }
-    var stickers = [];
-    for(var i = 0; i < 4; i++){
-        var randomSticker = Math.floor(Math.random() * stickerImages.length);
-        stickers.push(stickerImages[randomSticker]);
-        stickerImages.splice(randomSticker, 1);
-    }
-    document.getElementById("twitter-stickers").innerHTML = ""; 
-    for (var i = 0; i < 4; i++){
-        var stickerImg = document.createElement("img");
-        stickerImg.setAttribute("src", stickers[i]);
-        stickerImg.setAttribute("class", position[i]);
-        stickerImg.classList.add("stickers");
-        var stickerList = document.getElementById("twitter-stickers");
-        stickerList.append(stickerImg);
-    }
+function topschange(x){
+    document.getElementById("tops-img").src = tops[x];
+    document.getElementById("topstext").innerHTML = topsbrand[x];
 }
 
+function bottomschange(x){
+    document.getElementById("bottoms-img").src = bottoms[x];
+    document.getElementById("bottomstext").innerHTML = bottomsbrand[x];
 
-function finalStickers(){
-    var position = [];
-    var stickerPosition = ["s1", "s2", "s3", "s4", "s5", "s6"];
-
-    for(var i = 0; i < 4; i++){
-        var randomPosition = Math.floor(Math.random() * stickerPosition.length);
-        position.push(stickerPosition[randomPosition]);
-        stickerPosition.splice(randomPosition, 1);
-    }
-    var stickers = [];
-    for(var i = 0; i < 4; i++){
-        var randomSticker = Math.floor(Math.random() * stickerImages.length);
-        stickers.push(stickerImages[randomSticker]);
-        stickerImages.splice(randomSticker, 1);
-    }
-    document.getElementById("final-stickers").innerHTML = ""; 
-    for (var i = 0; i < 4; i++){
-        var stickerImg = document.createElement("img");
-        stickerImg.setAttribute("src", stickers[i]);
-        stickerImg.setAttribute("class", position[i]);
-        stickerImg.classList.add("stickers");
-        var stickerList = document.getElementById("final-stickers");
-        stickerList.append(stickerImg);
-    }
 }
 
-
-
-function aigaStickers(){
-    var position = [];
-    var stickerPosition = ["s1", "s2", "s3", "s4", "s5", "s6"];
-
-    for(var i = 0; i < 4; i++){
-        var randomPosition = Math.floor(Math.random() * stickerPosition.length);
-        position.push(stickerPosition[randomPosition]);
-        stickerPosition.splice(randomPosition, 1);
-    }
-    var stickers = [];
-    for(var i = 0; i < 4; i++){
-        var randomSticker = Math.floor(Math.random() * stickerImages.length);
-        stickers.push(stickerImages[randomSticker]);
-        stickerImages.splice(randomSticker, 1);
-    }
-    document.getElementById("aiga-stickers").innerHTML = ""; 
-    for (var i = 0; i < 4; i++){
-        var stickerImg = document.createElement("img");
-        stickerImg.setAttribute("src", stickers[i]);
-        stickerImg.setAttribute("class", position[i]);
-        stickerImg.classList.add("stickers");
-        var stickerList = document.getElementById("aiga-stickers");
-        stickerList.append(stickerImg);
-    }
+function shoeschange(x){
+    document.getElementById("shoes-img").src = shoes[x];
+    document.getElementById("shoestext").innerHTML = shoesbrand[x];
 }
 
+// function misccategory(){
+//     document.getElementById("misccategory").style = "font-weight: 600";
+//     document.getElementById("topscategory").style = "font-weight: 400";
+//     document.getElementById("bottomscategory").style = "font-weight: 400";
+//     document.getElementById("shoescategory").style = "font-weight: 400";
 
-function populateNav(){
-    document.getElementById("link1").innerHTML = "work"; 
-    document.getElementById("link1").href = "index"; 
-//    document.getElementById("link2").innerHTML = "play"; 
-//    document.getElementById("link2").href = "play"; 
-    document.getElementById("link3").innerHTML = "about"; 
-    document.getElementById("link3").href = "about"; 
+//     document.getElementById("misc").style = "display: block;";
+//     document.getElementById("tops").style = "display: none;";
+//     document.getElementById("bottoms").style = "display: none";
+//     document.getElementById("shoes").style = "display: none";
+// }
+
+function topscategory(){
+    // document.getElementById("misccategory").style = "font-weight: 400";
+    document.getElementById("topscategory").style = "font-weight: 600";
+    document.getElementById("bottomscategory").style = "font-weight: 400";
+    document.getElementById("shoescategory").style = "font-weight: 400";
+
+    // document.getElementById("misc").style = "display: none;";
+    document.getElementById("tops").style = "display: block;";
+    document.getElementById("bottoms").style = "display: none";
+    document.getElementById("shoes").style = "display: none";
 }
 
+function bottomscategory(){
+    // document.getElementById("misccategory").style = "font-weight: 400";
+    document.getElementById("topscategory").style = "font-weight: 400";
+    document.getElementById("bottomscategory").style = "font-weight: 600";
+    document.getElementById("shoescategory").style = "font-weight: 400";
 
-function addStickers(){
-    abbiStickers();
-    twitterStickers();
-    finalStickers();
-    aigaStickers();
-//    populateNav();
+    // document.getElementById("misc").style = "display: none;";
+    document.getElementById("tops").style = "display: none;";
+    document.getElementById("bottoms").style = "display: block";
+    document.getElementById("shoes").style = "display: none";
 }
 
-function populatePage(){
-//    populateNav();
+function shoescategory(){
+    // document.getElementById("misccategory").style = "font-weight: 400";
+    document.getElementById("topscategory").style = "font-weight: 400";
+    document.getElementById("bottomscategory").style = "font-weight: 400";
+    document.getElementById("shoescategory").style = "font-weight: 600";
+
+    // document.getElementById("misc").style = "display: none;";
+    document.getElementById("tops").style = "display: none;";
+    document.getElementById("bottoms").style = "display: none";
+    document.getElementById("shoes").style = "display: block";
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+}
