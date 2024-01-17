@@ -1,235 +1,1409 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-    <title>maddy cha</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/wzc6dki.css"> -->
-    <link rel="stylesheet" href="https://use.typekit.net/ekg8pwz.css">
-    
+    <title></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="imgs/misc/favicon.png"/>        
-    <meta http-equiv="Cache-control" content="public">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144670648-1"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-144670648-1');
-    </script>
+    <link rel='stylesheet' href='sporting-grotesque/font.css' type='text/css'>
 </head>
 
 <body>
-    <main>
-        <div class="clear"></div>
-        <div id="game" class="home-section">
-            
-            <div class="left-col hide-mobile">
-                <div id="home-link"><a href="https://maddycha.com/">maddy cha</a></div>
-                
-                <div id="doll">
-                    <img id="relative" src="imgs/game/relative.png">
-                    <img id="base" src="imgs/game/base.png">
-                    <!-- <img id="misc-img" src="imgs/game/misc/0.png"> -->
-                    <img id="bottoms-img" src="imgs/game/bottoms/0.png">
-                    <img id="tops-img" src="imgs/game/tops/0.png">
-                    <img id="shoes-img" src="imgs/game/shoes/0.png">
-                    <img id="jewelry" src="imgs/game/jewelry.png">
 
+    <div id="no-laptop">
+        <div id="no-laptop-content">
+            <div class="tablet-left">
+                <img src="imgs/desktop/me.gif">
+            </div>
+
+        <div class="tablet-right">
+        <h1>maddy cha</h1>
+        <h1><p>⋆ ˚｡⋆୨୧˚｡˚⋆</p></h1>
+        <p>hi i'm a product designer @ instagram based in ny</p>
+        <p>pls come back on a computer for the full site experience</p>
+
+        <a href="https://twitter.com/maddycha" target="_blank">
+        <i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com/maddycha" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:maddycha@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+    </div>
+</div>
+    </div>
+
+
+
+    <div id="nav">
+        <div id="navitems">
+            <i id="apple" class="fa-solid fa-apple-whole"></i><a href="https://maddycha.com/" class="bold">
+                <p>maddycha</p>
+            </a><!--
+                 -->
+            <div id="find">
+                <p>find me</p>
+                <ul id="links">
+                    <a href="https://instagram.com/maddycha" target="_blank">
+                        <p>instagram</p>
+                    </a>
+                    <a href="https://twitter.com/maddycha" target="_blank">
+                        <p>twitter</p>
+                    </a>
+                    <a href="https://giphy.com/maddycha" target="_blank">
+                        <p>giphy</p>
+                    </a>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="navbg">
+        <div class="blur"></div>
+    </div>
+
+    <div id="desktop">
+        <div id="desktopnav">
+            <!-- <div class="folders" onclick="trash()">
+                <img class="desktopicon" src="imgs/desktop/trash.png">
+                <h6>trash</h6>
+            </div> -->
+
+            <div class="folders" onclick="aboutme()">
+                <img class="desktopicon" src="imgs/desktop/about.png">
+                <h6>about me</h6>
+            </div>
+
+            <div class="folders" onclick="projects()">
+                <img class="desktopicon" src="imgs/desktop/projects.png">
+                <h6>wardrobe</h6>
+            </div>
+
+            <div class="folders" onclick="resume()">
+                <img class="desktopicon" src="imgs/desktop/resume.png">
+                <h6>resume</h6>
+            </div>
+        </div>
+    </div>
+    <img id="bg" src="imgs/desktop/desktop.jpeg">
+
+
+    <div class="browser-container" onclick="orderDiv(this)">
+        <div id="browser" class="window">
+
+            <div id="browsernav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeAboutme()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
                 </div>
-                
-                
-                <div id="categories">
-                    <p class="category" id="topscategory" onclick="topscategory()">tops</p>
-                    <p class="category" id="bottomscategory" onclick="bottomscategory()">bottoms</p>
-                    <p class="category" id="shoescategory" onclick="shoescategory()">shoes</p>
-                    <!-- <p class="category" id="misccategory" onclick="misccategory()">misc</p> -->
-                </div>
-                
-                <div id="icons">
-                    
-                    <div id="tops" class="choices">
-                        <div class="row1">
-                            <img src="imgs/game/choices/tops/0.png" onclick="topschange(0);">
-                            <img src="imgs/game/choices/tops/1.png" onclick="topschange(1);">
-                            <img src="imgs/game/choices/tops/2.png" onclick="topschange(2);">
-                            <img src="imgs/game/choices/tops/3.png" onclick="topschange(3);">
-                        </div>
-                        <div class="row2">
-                            <img src="imgs/game/choices/tops/4.png" onclick="topschange(4);">
-                            <img src="imgs/game/choices/tops/5.png" onclick="topschange(5);">
-                            <img src="imgs/game/choices/tops/6.png" onclick="topschange(6);">
-                            <img src="imgs/game/choices/tops/7.png" onclick="topschange(7);">
-                        </div>
+                <h2>about me</h2>
+                <div id="search-bar">
+                    <div id="search-inside" class="center">
+                        <i id="left-arrow" class="fa-solid fa-arrow-left"></i>
+                        <i id="right-arrow" class="fa-solid fa-arrow-right"></i>
+                        <p><i id="info-icon" class="fa-solid fa-circle-info"></i>http://www.verycoolblog.com</p>
                     </div>
-                    
-                    <div id="bottoms" class="choices">
-                        <div class="row1">
-                            <img src="imgs/game/choices/bottoms/0.png" onclick="bottomschange(0);">
-                            <img src="imgs/game/choices/bottoms/1.png" onclick="bottomschange(1);">
-                            <img src="imgs/game/choices/bottoms/2.png" onclick="bottomschange(2);">
-                            <img src="imgs/game/choices/bottoms/3.png" onclick="bottomschange(3);">
-                        </div>
-                        <div class="row2">
-                            <img src="imgs/game/choices/bottoms/4.png" onclick="bottomschange(4);">
-                            <img src="imgs/game/choices/bottoms/5.png" onclick="bottomschange(5);">
-                            <img src="imgs/game/choices/bottoms/6.png" onclick="bottomschange(6);">
-                            <img src="imgs/game/choices/bottoms/7.png" onclick="bottomschange(7);">
-                        </div>
-                    </div>
-                    
-                    <div id="shoes" class="choices">
-                        <div class="row1">
-                            <img src="imgs/game/choices/shoes/0.png" onclick="shoeschange(0);">
-                            <img src="imgs/game/choices/shoes/1.png" onclick="shoeschange(1);">
-                            <img src="imgs/game/choices/shoes/2.png" onclick="shoeschange(2);">
-                            <img src="imgs/game/choices/shoes/3.png" onclick="shoeschange(3);">
-                        </div>
-                    </div>
-<!-- 
-                    <div id="misc" class="choices">
-                        <div class="row1">
-                            <img src="imgs/game/choices/misc/0.png" onclick="miscchange(0)">
-                            <img src="imgs/game/choices/misc/1.png" onclick="miscchange(1)">
-                            <img src="imgs/game/choices/misc/2.png" onclick="miscchange(2)">
-                            <img src="imgs/game/choices/misc/3.png" onclick="miscchange(3)">
-                        </div>
-                    </div> -->
-                    
-                </div>
-                
-                <div id="currents" class="hide-mobile">
-                    <p><span style="font-weight: 500;">top</span><span id="topstext">expired girl chloe blouse</span></p>
-                    <p><span style="font-weight: 500;">bottoms</span><span id="bottomstext">expired girl check skirt</span></p>
-                    <p><span style="font-weight: 500;">shoes</span><span id="shoestext">buffalo classic lows</span></p>    
                 </div>
             </div>
-            
-            
-            <div class="right-col home-divs">
-
-                <div id="home-link" class="show-mobile"><a href="https://maddycha.com/">maddy cha</a></div>
 
 
-                <div class="section">
-                    <div class="intro">
-                        <h1>hi i'm maddyyyy! ⋆ ˚｡⋆୨୧˚</h1>
-                        <h1>designer on <a href="https://instagram.com">&#x293B; instagram</a> currently in nyc</h1>
+            <div id="browser-content" class="content">
+                <div class="left-col">
+                    <h1>hi i'm maddyyyy!
+                        <br>
+                        welcome 2 my blog :—&#x29;
+                        <br>
+                        ⋆ ˚｡⋆୨୧˚｡˚⋆
+                    </h1>
+                    <p>product designer @ instagram based in ny
+                        <br>i love playing games and spending money
+                        <br>i don't take myself seriously
+                    </p>
+                </div>
+                <div class="right-col"><img src="imgs/desktop/me.png" id="me"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-container" onclick="orderDiv(this)">
+        <div id="projects" class="window">
+            <div class="white-bg">
+                <div id="projectsnav" class="navbar">
+                    <div class="controls">
+                        <div class="red" onclick="closeProjects()"></div>
+                        <div class="yellow"></div>
+                        <div class="green"></div>
                     </div>
-                    <div class="links hide-mobile">        
-                        <a href="mailto:maddycha@gmail.com" target="_blank"><p>&#x293B; email </p></a>
-                        <a href="https://twitter.com/maddycha" target="_blank"><p>&#x293B; twitter </p></a>
-                        <a href="https://instagram.com/maddycha" target="_blank"><p>&#x293B; instagram </p></a>
-                        <a href="https://giphy.com/maddycha" target="_blank"><p>&#x293B; giphy </p></a>    
-                    </div>
-                    
-                    <div class="links-mobile show-mobile">        
-                        <div class="linksrow1">
-                            <a href="mailto:maddycha@gmail.com" target="_blank"><p>&#x293B; email </p></a>
-                            <a href="https://twitter.com/maddycha" target="_blank"><p>&#x293B; twitter </p></a>
+                    <h2>wardrobe</h2>
+                    <div class="clear"></div>
+                    <div id="wardrobe-icons">
+                        <div class="left-col-i">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
                         </div>
-                        <div class="linksrow2">
-                            <a href="https://instagram.com/mildfruit" target="_blank"><p>&#x293B; instagram </p></a>
-                            <a href="https://giphy.com/maddycha" target="_blank"><p>&#x293B; giphy </p></a>    
+                        <div class="float-right">
+                            <i class="fa-solid fa-table-cells-large"></i>
+                            <i class="fa-solid fa-list"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                
-                <div id="projects">
-                    <a href="msgr-ig">
-                        <div class="project">
-                            <img class="project-img border-left-none" src="imgs/thumbs/msgr-ig-thumb.png">
-                            <div class="project-text">
-                                <h3>messenger &amp; instagram</h3>
-                                <h4>search, sharing, &amp; personalization work</h4>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="abbi">
-                        <div class="project">
-                            <img class="project-img" src="imgs/thumbs/abbi-thumb.gif">
-                            <div class="project-text">
-                                <h3>abbi</h3>
-                                <h4>conversational user interface for airbnb</h4>
-                            </div>
-                        </div>
-                    </a>
+            </div>
+            <div class="clear"></div>
 
-                    
-                    <a href="illustration">
-                        <div class="project">
-                            <img class="project-img  border-left-none" src="imgs/thumbs/illustration.png">
-                            <div class="project-text">
-                                <h3>illustration</h3>
-                                <h4>assortment of digital drawings</h4>
-                            </div>
-                        </div>
-                    </a>
-<!-- 
-                    <a href="aiga">
-                        <div class="project">
-                            <img class="project-img  border-left-none" src="imgs/thumbs/monsters-thumb.gif">
-                            <div class="project-text">
-                                <h3>aiga monsters</h3>
-                                <h4>visualizing design census data</h4>
-                            </div>
-                        </div>
-                    </a> -->
+            <div class="clear"></div>
 
-                    <a href="twitter">
-                        <div class="project">
-                            <img class="project-img" src="imgs/thumbs/twitter-icon-2.gif">
-                            <div class="project-text">
-                                <h3>twitter</h3>
-                                <h4>profile redesign for periscope</h4>
-                            </div>
-                        </div>
-                    </a>
+            <div id="projects-content" class="content">
 
-                    <!-- <a href="overfishing">
-                        <div class="project">
-                            <img class="project-img  border-left-none" src="imgs/thumbs/fish-thumb.gif">
-                            <div class="project-text">
-                                <h3>UN overfishing video</h3>
-                                <h4>increasing awareness through animation</h4>
-                            </div>
-                        </div>
-                    </a> -->
-                    
+                <div id="wardrobe-folders">
+                    <div class="folders" onclick="tops()" id="topslink">
+                        <img class="desktopicon" src="imgs/desktop/tops.png">
+                        <h6>tops</h6>
+                    </div>
+                    <div class="folders" onclick="bottoms()" id="bottomslink">
+                        <img class="desktopicon" src="imgs/desktop/bottoms.png">
+                        <h6>bottoms</h6>
+                    </div>
+                    <div class="folders" onclick="dresses(),dressesFront()" id="dresseslink">
+                        <img class="desktopicon" src="imgs/desktop/dresses.png">
+                        <h6>dresses</h6>
+                    </div>
+                    <div class="folders" onclick="outerwear()" id="outerwearlink">
+                        <img class="desktopicon" src="imgs/desktop/outerwear.png">
+                        <h6>outerwear</h6>
+                    </div>
+                    <div class="folders" onclick="shoes()" id="shoeslink">
+                        <img class="desktopicon" src="imgs/desktop/shoes.png">
+                        <h6>shoes</h6>
+                    </div>
+                    <div class="folders" onclick="jewelry()" id="jewelrylink">
+                        <img class="desktopicon" src="imgs/desktop/jewelry.png">
+                        <h6>jewelry</h6>
+                    </div>
+                    <div class="folders" onclick="accessories()" id="accessorieslink">
+                        <img class="desktopicon" src="imgs/desktop/accessories.png">
+                        <h6>accessories</h6>
+                    </div>
                     <div class="clear"></div>
                 </div>
-                
-                <div id="footer"><p>&copy; maddy cha 2022</p>
-                    <img class="heart-img" src="imgs/stickers/heart.gif">
-                    <img class="spark-img" src="imgs/stickers/spark.gif">
+            </div>
+        </div>
+    </div>
+
+    <div class="tops-container" onclick="orderDiv(this)">
+        <div id="tops" class="window">
+            <div id="topsnav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeTops()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>tops</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+
+
+                <div class="section-title">
+                    <h1>tops</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;t-shirts</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Lacoste</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Just Peachy</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Heron Preston</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Eckhaus Latta</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Hyein Seo</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Expired Girl</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/7.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Petra Collins</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/t-shirts/8.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>EYTYS</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;sleeveless</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Reformation</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Dydoshop</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>AKA.MYDINH</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/7.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>WithJéan</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/8.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>WithJéan</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/9.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Diesel</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/10.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Dion Lee</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/11.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Jaded London</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/12.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>MIAOU</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/sleeveless/13.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Aritzia</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;long sleeve</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/tops/long sleeves/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sami Miro Vintage</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/long sleeves/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/tops/long sleeves/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>We11done</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottoms-container" onclick="orderDiv(this)">
+        <div id="bottoms" class="window">
+            <div id="bottomsnav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeBottoms()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>bottoms</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="bottoms-content" class="content">
+                <div class="section-title">
+                    <h1>bottoms</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;pants</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>rag &amp; bone</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Diesel</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Entire Studios</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Diesel</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>rag &amp; bone</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/pants/7.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>SandyLiang</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;skirts</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OPEN YY</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>LVIR</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Reformation</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>My Mum Made It</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Dydoshop</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/bottoms/skirts/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Expired Girl</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dresses-container" onclick="orderDiv(this)">
+        <div id="dresses" class="window">
+            <div id="dressesnav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeDresses()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>dresses</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+                <div class="section-title">
+                    <h1>dresses</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;short</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/short/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Miaou</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/short/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Expired Girl</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/short/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Theory</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/short/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Aritzia</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/short/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Aritzia</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;long</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/long/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>SKIMS</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/long/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>SKY HIGH FARM WORKWEAR</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/dresses/long/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Aritzia</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="outerwear-container" onclick="orderDiv(this)">
+        <div id="outerwear" class="window">
+            <div id="outerwearnav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeOuterwear()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>outerwear</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+                <div class="section-title">
+                    <h1>outerwear</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;light</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/light/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>VAARA</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/light/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Daily Paper</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/light/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Issey Miyake</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/light/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>LAAMS</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;heavy</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/heavy/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>1017 ALYX 9SM</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/heavy/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Diesel</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/heavy/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Zara</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/outerwear/heavy/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Uniqlo+J</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="shoes-container" onclick="orderDiv(this)">
+        <div id="shoes" class="window">
+            <div id="shoesnav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeShoes()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>shoes</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+                <div class="section-title">
+                    <h1>shoes</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;shoes</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/shoes/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Buffalo</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/shoes/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Jeffrey Campbell</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/shoes/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Windsor Smith</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/shoes/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Salomon</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/shoes/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Timberland</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;sandals</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/sandals/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Vivienne Westwood</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/shoes/sandals/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Suicoke</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="jewelry-container" onclick="orderDiv(this)">
+        <div id="jewelry" class="window">
+            <div id="jewelrynav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeJewelry()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>jewelry</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+                <div class="section-title">
+                    <h1>jewelry</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;earrings</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Good Art</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Maison Miru</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/7.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/8.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/earrings/9.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>by @momokuroh_</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;necklaces</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/necklaces/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>OHTNYC</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;bracelets</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/bracelets/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>MISBHV</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/bracelets/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;rings</summary>
+
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/rings/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>MM6 Maison Margiela</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/rings/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Mejuri</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/rings/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/jewelry/rings/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Rimor</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="accessories-container" onclick="orderDiv(this)">
+        <div id="accessories" class="window">
+            <div id="accessoriesnav" class="navbar">
+                <div class="controls" onclick="closeAccessories()">
+                    <div class="red" onclick="closeAccessories()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>accessories</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="projects-content" class="content">
+                <div class="section-title">
+                    <h1>accessories</h1>
+                    <div class="separator"></div>
+                </div>
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;glasses</summary>
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/glasses/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Gentle Monster x D'heygere</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/glasses/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Gentle Monster</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/glasses/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Gentle Monster x Maison Margiela</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/glasses/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Warby Parker</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;hair</summary>
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/hair/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/hair/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;bags</summary>
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Vivienne Westwood</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Baggu</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Baggu x Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/4.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>My Mum Made It</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/5.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>1017 ALYX 9SM</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/6.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Baggu x Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/7.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Baggu x Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/bags/8.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Baggu x Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;misc</summary>
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/misc/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Sandy Liang</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/misc/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Diesel</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+                <details class="wardrobe-toggle" open="">
+                    <summary>&nbsp;fragrance</summary>
+                    <div class="wardrobe-gallery col-4">
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/fragrance/1.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Maison Margiela
+                                    <br>Lazy Sunday Morning
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/fragrance/2.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Glossier
+                                    <br>Glossier You
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imgs/wardrobe/accessories/fragrance/3.png" class="wardrobe-img">
+                            <figcaption>
+                                <p>Valentino
+                                    <br>Voce Viva Intensa
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="trash-container" onclick="orderDiv(this)">
+        <div id="trash" class="window">
+            <div id="trashnav" class="navbar">
+                <div class="controls" onclick="closeTrash()">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>trash</h2>
+                <div class="clear"></div>
+            </div>
+            <div id="browser-content" class="content">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="resume-container" onclick="orderDiv(this)">
+        <div id="resume" class="window">
+            <div id="resumenav" class="navbar">
+                <div class="controls">
+                    <div class="red" onclick="closeResume()"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <h2>experience</h2>
+                <div class="clear"></div>
+                <div id="text-edit">
+                    <div id="text-edit-1">
+                        <div class="font-box">
+                            <p>
+                                space-grotesk &nbsp;<i class="fa-solid fa-caret-down"></i>
+                            </p>
+                        </div>
+                        <div class="font-box">
+                            <p>
+                                regular &nbsp;<i class="fa-solid fa-caret-down"></i>
+                            </p>
+                        </div>
+                        <div class="font-box">
+                            <p>
+                                12 &nbsp;<i class="fa-solid fa-caret-down"></i>
+                            </p>
+                        </div>
+                        <div id="color-picker"></div>
+                    </div>
+                    <div id="text-edit-2">
+                        <p><i class="fa-solid fa-bold"></i></p>
+                        <p><i class="fa-solid fa-italic"></i></p>
+                        <p><i id="underline-icon" class="fa-solid fa-underline" style="border-right: none;"></i></p>
+                    </div>
+                    <div id="text-edit-3">
+                        <p><i class="fa-solid fa-align-left"></i></p>
+                        <p><i class="fa-solid fa-align-center"></i></p>
+                        <p><i class="fa-solid fa-align-right" style="border-right: none;"></i></p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="marquee hide-mobile rotate">
-                <a href="https://giphy.com/maddycha" target="_blank">
-                    <div class="track">
-                        <div class="content">
-                            <img class="stickers-img" src="imgs/stickers/gif1.gif"><img class="stickers-img" src="imgs/stickers/gif2.gif"><img class="stickers-img" src="imgs/stickers/gif3.gif"><img class="stickers-img" src="imgs/stickers/gif4.gif"><img class="stickers-img" src="imgs/stickers/gif5.gif"><img class="stickers-img" src="imgs/stickers/gif6.gif"><img class="stickers-img" src="imgs/stickers/gif7.gif"><img class="stickers-img" src="imgs/stickers/gif8.gif"><img class="stickers-img" src="imgs/stickers/gif9.gif"><img class="stickers-img" src="imgs/stickers/gif10.gif"><img class="stickers-img" src="imgs/stickers/gif11.gif"><img class="stickers-img" src="imgs/stickers/gif12.gif">
-                            <img class="stickers-img" src="imgs/stickers/gif1.gif"><img class="stickers-img" src="imgs/stickers/gif2.gif"><img class="stickers-img" src="imgs/stickers/gif3.gif"><img class="stickers-img" src="imgs/stickers/gif4.gif"><img class="stickers-img" src="imgs/stickers/gif5.gif"><img class="stickers-img" src="imgs/stickers/gif6.gif"><img class="stickers-img" src="imgs/stickers/gif7.gif"><img class="stickers-img" src="imgs/stickers/gif8.gif"><img class="stickers-img" src="imgs/stickers/gif9.gif"><img class="stickers-img" src="imgs/stickers/gif10.gif"><img class="stickers-img" src="imgs/stickers/gif11.gif"><img class="stickers-img" src="imgs/stickers/gif12.gif">
-                        </div>
-                    </div>
-                </a>
+            <div class="ruler">
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="ruler-x">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
-            
+            <div id="resume-content" class="content">
+
+
+                <div class="section-title">
+                    <h1>experience</h1>
+                    <div class="separator"></div>
+                </div>
+
+                <div class="resume-item">
+                    <h3 class="resume-title">Product Designer @ Instagram</h3>
+                    <h4 class="resume-employer">2022—Present</h4>
+                    <p class="resume-body">
+                        Currently working on the IGD Media team encompassing creation &
+                        consumption of media, stickers/gifs, and audio & video calling
+                        experiences within direct.
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <h3 class="resume-title">Product Designer @ Messenger</h3>
+                    <h4 class="resume-employer">2020—2022</h4>
+                    <p class="resume-body">
+                        Lead designer on the Search and Sharing teams. Owned surfaces relating
+                        to creating 1:1 and group
+                        messages, message search, advanced content search, broadcast &
+                        forwarding flows, and content
+                        discovery for both Messenger and Instagram Direct.
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <h3 class="resume-title">Designer/Illustrator @ Fanhouse</h3>
+                    <h4 class="resume-employer">2020</h4>
+                    <p class="resume-body">
+                        Created illustrated assets for marketing and in-product usage.
+                        Redesigned private and public post composer to improve image/video
+                        embeds and include scheduling functionality.
+                    </p>
+                </div>
+
+
+                <div class="resume-item">
+                    <h3 class="resume-title">Product Design Intern @ Twitter</h3>
+                    <h4 class="resume-employer">2019</h4>
+                    <p class="resume-body">
+                        Redesigned Periscope profiles with a focus on improving safety for
+                        users. Updated UI components for both Periscope and Twitter.
+                    </p>
+                </div>
+                <div class="section-title">
+                    <h1 id="edu">education</h1>
+                    <div class="separator"></div>
+                </div>
+                <div class="resume-item">
+                    <h3 class="resume-title">Carnegie Mellon University</h3>
+                    <h4 class="resume-employer">Class of 2020</h4>
+                    <p class="resume-body">
+                        BDes in Communication Design
+                        <br>
+                        BHCI in Human Computer Interaction
+                        <br>
+                        Minor in Media Design
+                    </p>
+                </div>
+            </div>
         </div>
-        
-        
-        <footer>
-            
-            <script type="text/javascript" src="js/script.js"></script>
-            
-            
-        </footer>
-        
-    </main>
+
+    </div>
+
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/09d51ffe32.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
