@@ -12,6 +12,11 @@ body {
     color: #1e1e1e;
 }
 
+#search-inside p{
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
 #resume .separator {
     border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
 
